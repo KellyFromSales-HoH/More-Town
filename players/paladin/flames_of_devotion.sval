@@ -1,0 +1,102 @@
+<dict>
+	<string name="name">.skills.paladin.flames-of-devotion</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>168 0 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::StackDamage</string>
+			<int name="max-stacks">12</int>
+			<int name="duration">1000</int>
+			<int name="magic-damage">1</int>
+
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 24 12 12</vec4>
+			</array>
+		</dict>
+
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::StackDamage</string>
+			<int name="max-stacks">24</int>
+			<int name="duration">1000</int>
+			<int name="magic-damage">1</int>
+
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 24 12 12</vec4>
+			</array>
+		</dict>
+
+		<!-- Level 3 t6-->
+		<dict>
+			<string name="class">Skills::StackDamage</string>
+			<int name="max-stacks">30</int>
+			<int name="duration">1200</int>
+			<int name="magic-damage">2</int>
+
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 24 12 12</vec4>
+			</array>
+		</dict>
+
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::StackDamage</string>
+			<int name="max-stacks">30</int>
+			<int name="duration">1400</int>
+			<int name="magic-damage">6</int>
+
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 24 12 12</vec4>
+			</array>
+		</dict>
+
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::StackDamage</string>
+			<int name="max-stacks">30</int>
+			<int name="duration">1600</int>
+			<int name="magic-damage">15</int>
+
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 24 12 12</vec4>
+			</array>
+		</dict>
+
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::StackDamage</string>
+			<int name="max-stacks">30</int>
+			<int name="duration">1800</int>
+			<int name="magic-damage">38</int>
+
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 24 12 12</vec4>
+			</array>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::StackDamage</string>
+			<int name="max-stacks">30</int>
+			<int name="duration">2000</int>
+			<int name="magic-damage">90</int>
+
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 24 12 12</vec4>
+			</array>
+		</dict>
+	</array>
+</dict>

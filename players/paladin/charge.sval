@@ -1,0 +1,300 @@
+<dict>
+	<string name="name">.skills.paladin.charge</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>24 0 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+	
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::Charge</string>
+			
+			<int name="cooldown">250</int>
+			<int name="castpoint">0</int>
+			
+			<string name="hit-fx">effects/players/charge_dust.effect</string>
+			<string name="dust-fx">effects/players/charge_dust.effect</string>
+			<string name="snd">event:/player/paladin/charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="mana-cost">10</int>
+			%//<int name="stamina-cost">3</int>
+			%//<int name="health-cost">0</int>
+			
+			<int name="speed">8</int>
+			<int name="duration">175</int>
+			
+			<!-- Level 6 -->
+			<!-- <int name="speed">16</int> -->
+			<!-- <int name="duration">200</int> --> 
+			
+			<dict name="effect">
+				<string name="class">Damage</string>
+				<int name="physical">25</int>
+			</dict>
+		</dict>
+		
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::Charge</string>
+			
+			<int name="cooldown">250</int>
+			<int name="castpoint">0</int>
+			
+			<string name="hit-fx">effects/players/charge_dust.effect</string>
+			<string name="dust-fx">effects/players/charge_dust.effect</string>
+			<string name="snd">event:/player/paladin/charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="mana-cost">12</int>
+			%//<int name="stamina-cost">3</int>
+			%//<int name="health-cost">0</int>
+			
+			
+			<int name="speed">9</int>
+			<int name="duration">180</int>
+			
+			<dict name="effect">
+				<string name="class">Damage</string>
+				<int name="physical">35</int>
+			</dict>
+		</dict>
+		
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::Charge</string>
+			
+			<int name="cooldown">250</int>
+			<int name="castpoint">0</int>
+			
+			<string name="hit-fx">effects/players/charge_dust.effect</string>
+			<string name="dust-fx">effects/players/charge_dust.effect</string>
+			<string name="snd">event:/player/paladin/charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="mana-cost">14</int>
+			%//<int name="stamina-cost">3</int>
+			%//<int name="health-cost">0</int>
+			
+			
+			<int name="speed">10</int>
+			<int name="duration">185</int>
+			
+			<dict name="effect">
+				<string name="class">Damage</string>
+				<int name="physical">45</int>
+			</dict>
+		</dict>
+		
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::Charge</string>
+			
+			<int name="cooldown">250</int>
+			<int name="castpoint">0</int>
+			
+			<string name="hit-fx">effects/players/charge_dust.effect</string>
+			<string name="dust-fx">effects/players/charge_dust.effect</string>
+			<string name="snd">event:/player/paladin/charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="mana-cost">16</int>
+			%//<int name="stamina-cost">3</int>
+			%//<int name="health-cost">0</int>
+			
+			
+			<int name="speed">12</int>
+			<int name="duration">190</int>
+			
+			<dict name="effect">
+				<string name="class">Damage</string>
+				<int name="physical">55</int>
+			</dict>
+		</dict>
+		
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::Charge</string>
+			
+			<int name="cooldown">250</int>
+			<int name="castpoint">0</int>
+			
+			<string name="hit-fx">effects/players/charge_dust.effect</string>
+			<string name="dust-fx">effects/players/charge_dust.effect</string>
+			<string name="snd">event:/player/paladin/charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="mana-cost">18</int>
+			%//<int name="stamina-cost">3</int>
+			%//<int name="health-cost">0</int>
+			
+			
+			<int name="speed">14</int>
+			<int name="duration">195</int>
+			
+			<dict name="effect">
+				<string name="class">Damage</string>
+				<int name="physical">65</int>
+			</dict>
+		</dict>
+		
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::Charge</string>
+			
+			<int name="cooldown">250</int>
+			<int name="castpoint">0</int>
+			
+			<string name="hit-fx">effects/players/charge_dust.effect</string>
+			<string name="dust-fx">effects/players/charge_dust.effect</string>
+			<string name="snd">event:/player/paladin/charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="mana-cost">20</int>
+			%//<int name="stamina-cost">3</int>
+			%//<int name="health-cost">0</int>
+			
+			
+			<int name="speed">16</int>
+			<int name="duration">200</int>
+			
+			<dict name="effect">
+				<string name="class">Damage</string>
+				<int name="physical">75</int>
+			</dict>
+		</dict>
+
+		<!-- Level 7 t6-->
+		<dict>
+			<string name="class">Skills::Charge</string>
+			
+			<int name="cooldown">250</int>
+			<int name="castpoint">0</int>
+			
+			<string name="hit-fx">effects/players/charge_dust.effect</string>
+			<string name="dust-fx">effects/players/charge_dust.effect</string>
+			<string name="snd">event:/player/paladin/charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="mana-cost">40</int>
+			%//<int name="stamina-cost">3</int>
+			%//<int name="health-cost">0</int>
+			
+			
+			<int name="speed">16</int>
+			<int name="duration">200</int>
+			
+			<dict name="effect">
+				<string name="class">Damage</string>
+				<int name="physical">188</int>
+			</dict>
+		</dict>
+
+		<!-- Level 8 -->
+		<dict>
+			<string name="class">Skills::Charge</string>
+			
+			<int name="cooldown">250</int>
+			<int name="castpoint">0</int>
+			
+			<string name="hit-fx">effects/players/charge_dust.effect</string>
+			<string name="dust-fx">effects/players/charge_dust.effect</string>
+			<string name="snd">event:/player/paladin/charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="mana-cost">80</int>
+			%//<int name="stamina-cost">3</int>
+			%//<int name="health-cost">0</int>
+			
+			
+			<int name="speed">16</int>
+			<int name="duration">200</int>
+			
+			<dict name="effect">
+				<string name="class">Damage</string>
+				<int name="physical">564</int>
+			</dict>
+		</dict>
+
+		<!-- Level 9 -->
+		<dict>
+			<string name="class">Skills::Charge</string>
+			
+			<int name="cooldown">250</int>
+			<int name="castpoint">0</int>
+			
+			<string name="hit-fx">effects/players/charge_dust.effect</string>
+			<string name="dust-fx">effects/players/charge_dust.effect</string>
+			<string name="snd">event:/player/paladin/charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="mana-cost">120</int>
+			%//<int name="stamina-cost">3</int>
+			%//<int name="health-cost">0</int>
+			
+			
+			<int name="speed">16</int>
+			<int name="duration">200</int>
+			
+			<dict name="effect">
+				<string name="class">Damage</string>
+				<int name="physical">1410</int>
+			</dict>
+		</dict>
+
+		<!-- Level 10 -->
+		<dict>
+			<string name="class">Skills::Charge</string>
+			
+			<int name="cooldown">250</int>
+			<int name="castpoint">0</int>
+			
+			<string name="hit-fx">effects/players/charge_dust.effect</string>
+			<string name="dust-fx">effects/players/charge_dust.effect</string>
+			<string name="snd">event:/player/paladin/charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="mana-cost">180</int>
+			%//<int name="stamina-cost">3</int>
+			%//<int name="health-cost">0</int>
+			
+			
+			<int name="speed">16</int>
+			<int name="duration">200</int>
+			
+			<dict name="effect">
+				<string name="class">Damage</string>
+				<int name="physical">3525</int>
+			</dict>
+		</dict>
+
+		<!-- Level 11 -->
+		<dict>
+			<string name="class">Skills::Charge</string>
+			
+			<int name="cooldown">250</int>
+			<int name="castpoint">0</int>
+			
+			<string name="hit-fx">effects/players/charge_dust.effect</string>
+			<string name="dust-fx">effects/players/charge_dust.effect</string>
+			<string name="snd">event:/player/paladin/charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="mana-cost">225</int>
+			%//<int name="stamina-cost">3</int>
+			%//<int name="health-cost">0</int>
+			
+			
+			<int name="speed">16</int>
+			<int name="duration">200</int>
+			
+			<dict name="effect">
+				<string name="class">Damage</string>
+				<int name="physical">8800</int>
+			</dict>
+		</dict>
+	</array>
+</dict>

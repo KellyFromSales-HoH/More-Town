@@ -1,0 +1,187 @@
+<dict>
+	<string name="name">.skills.witch_hunter.flaming-hound</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>144 192 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+		
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::ShootProjectile</string>
+			<string name="anim">skill 8</string>
+			<int name="castpoint">0</int>
+			<float name="speed-mul">0.5</float>
+			
+			<string name="snd">event:/player/witch_hunter/hound_shoot</string>
+			
+			<int name="cooldown">1500</int>
+			<int name="mana-cost">20</int>
+			
+			<string name="projectile">players/witch_hunter/hound_1.unit</string>
+			<int name="dist">5</int>
+		</dict>
+		
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::ShootProjectile</string>
+			<string name="anim">skill 8</string>
+			<int name="castpoint">0</int>
+			<float name="speed-mul">0.5</float>
+			
+			<string name="snd">event:/player/witch_hunter/hound_shoot</string>
+			
+			<int name="cooldown">1500</int>
+			<int name="mana-cost">25</int>
+			
+			<string name="projectile">players/witch_hunter/hound_2.unit</string>
+			<int name="dist">5</int>
+		</dict>
+		
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::ShootProjectile</string>
+			<string name="anim">skill 8</string>
+			<int name="castpoint">0</int>
+			<float name="speed-mul">0.5</float>
+			
+			<string name="snd">event:/player/witch_hunter/hound_shoot</string>
+			
+			<int name="cooldown">1500</int>
+			<int name="mana-cost">30</int>
+			
+			<string name="projectile">players/witch_hunter/hound_3.unit</string>
+			<int name="dist">5</int>
+		</dict>
+		
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::ShootProjectile</string>
+			<string name="anim">skill 8</string>
+			<int name="castpoint">0</int>
+			<float name="speed-mul">0.5</float>
+			
+			<string name="snd">event:/player/witch_hunter/hound_shoot</string>
+			
+			<int name="cooldown">1500</int>
+			<int name="mana-cost">35</int>
+			
+			<string name="projectile">players/witch_hunter/hound_4.unit</string>
+			<int name="dist">5</int>
+		</dict>
+		
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::ShootProjectile</string>
+			<string name="anim">skill 8</string>
+			<int name="castpoint">0</int>
+			<float name="speed-mul">0.5</float>
+			
+			<string name="snd">event:/player/witch_hunter/hound_shoot</string>
+			
+			<int name="cooldown">1500</int>
+			<int name="mana-cost">40</int>
+			
+			<string name="projectile">players/witch_hunter/hound_5.unit</string>
+			<int name="dist">5</int>
+		</dict>
+		
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::ShootProjectile</string>
+			<string name="anim">skill 8</string>
+			<int name="castpoint">0</int>
+			<float name="speed-mul">0.5</float>
+			
+			<string name="snd">event:/player/witch_hunter/hound_shoot</string>
+			
+			<int name="cooldown">1500</int>
+			<int name="mana-cost">45</int>
+			
+			<string name="projectile">players/witch_hunter/hound_6.unit</string>
+			<int name="dist">5</int>
+		</dict>
+		
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::ShootProjectile</string>
+			<string name="anim">skill 8</string>
+			<int name="castpoint">0</int>
+			<float name="speed-mul">0.5</float>
+			
+			<string name="snd">event:/player/witch_hunter/hound_shoot</string>
+			
+			<int name="cooldown">1500</int>
+			<int name="mana-cost">50</int>
+			
+			<string name="projectile">players/witch_hunter/hound_7.unit</string>
+			<int name="dist">5</int>
+		</dict>
+		
+		<!-- Level 8 -->
+		<dict>
+			<string name="class">Skills::ShootProjectile</string>
+			<string name="anim">skill 8</string>
+			<int name="castpoint">0</int>
+			<float name="speed-mul">0.5</float>
+			
+			<string name="snd">event:/player/witch_hunter/hound_shoot</string>
+			
+			<int name="cooldown">1500</int>
+			<int name="mana-cost">65</int>
+			
+			<string name="projectile">players/witch_hunter/hound_8.unit</string>
+			<int name="dist">5</int>
+		</dict>
+		
+		<!-- Level 9 -->
+		<dict>
+			<string name="class">Skills::ShootProjectile</string>
+			<string name="anim">skill 8</string>
+			<int name="castpoint">0</int>
+			<float name="speed-mul">0.5</float>
+			
+			<string name="snd">event:/player/witch_hunter/hound_shoot</string>
+			
+			<int name="cooldown">1500</int>
+			<int name="mana-cost">80</int>
+			
+			<string name="projectile">players/witch_hunter/hound_9.unit</string>
+			<int name="dist">5</int>
+		</dict>
+		
+		<!-- Level 10 -->
+		<dict>
+			<string name="class">Skills::ShootProjectile</string>
+			<string name="anim">skill 8</string>
+			<int name="castpoint">0</int>
+			<float name="speed-mul">0.5</float>
+			
+			<string name="snd">event:/player/witch_hunter/hound_shoot</string>
+			
+			<int name="cooldown">1500</int>
+			<int name="mana-cost">120</int>
+			
+			<string name="projectile">players/witch_hunter/hound_10.unit</string>
+			<int name="dist">5</int>
+		</dict>
+		
+		<!-- Level 11 -->
+		<dict>
+			<string name="class">Skills::ShootProjectile</string>
+			<string name="anim">skill 8</string>
+			<int name="castpoint">0</int>
+			<float name="speed-mul">0.5</float>
+			
+			<string name="snd">event:/player/witch_hunter/hound_shoot</string>
+			
+			<int name="cooldown">1500</int>
+			<int name="mana-cost">180</int>
+			
+			<string name="projectile">players/witch_hunter/hound_11.unit</string>
+			<int name="dist">5</int>
+		</dict>
+	</array>
+</dict>

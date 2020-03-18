@@ -1,0 +1,121 @@
+<dict>
+	<string name="name">.skills.warlock.extended-domain</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>216 144 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::ExtendedDomain</string>
+			<float name="range-mul">1.15</float>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::CleaveRange</string>
+				<float name="mul">1.15</float>
+			</dict>
+		</dict>
+
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::ExtendedDomain</string>
+			<float name="range-mul">1.3</float>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::CleaveRange</string>
+				<float name="mul">1.3</float>
+			</dict>
+		</dict>
+
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::ExtendedDomain</string>
+			<float name="range-mul">1.45</float>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::CleaveRange</string>
+				<float name="mul">1.45</float>
+			</dict>
+		</dict>
+
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::ExtendedDomain</string>
+			<float name="range-mul">1.6</float>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::CleaveRange</string>
+				<float name="mul">1.6</float>
+			</dict>
+		</dict>
+		
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::ExtendedDomain</string>
+			<float name="range-mul">1.75</float>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::CleaveRange</string>
+				<float name="mul">1.75</float>
+			</dict>
+		</dict>
+
+		<!-- Level 6 t6-->
+		<dict>
+			<string name="class">Skills::ExtendedDomain</string>
+			<float name="range-mul">1.8</float>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::CleaveRange</string>
+				<float name="mul">1.8</float>
+			</dict>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::ExtendedDomain</string>
+			<float name="range-mul">1.85</float>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::CleaveRange</string>
+				<float name="mul">1.85</float>
+			</dict>
+		</dict>
+
+		<!-- Level 8 -->
+		<dict>
+			<string name="class">Skills::ExtendedDomain</string>
+			<float name="range-mul">1.9</float>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::CleaveRange</string>
+				<float name="mul">1.9</float>
+			</dict>
+		</dict>
+
+		<!-- Level 9 -->
+		<dict>
+			<string name="class">Skills::ExtendedDomain</string>
+			<float name="range-mul">1.95</float>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::CleaveRange</string>
+				<float name="mul">1.95</float>
+			</dict>
+		</dict>
+
+		<!-- Level 10 -->
+		<dict>
+			<string name="class">Skills::ExtendedDomain</string>
+			<float name="range-mul">2</float>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::CleaveRange</string>
+				<float name="mul">2</float>
+			</dict>
+		</dict>
+	</array>
+</dict>

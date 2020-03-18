@@ -1,0 +1,53 @@
+<dict>
+	<string name="name">.skills.ranger.twinned-arrows</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>144 24 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+		
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::TwinnedArrow</string>
+			<float name="chance">0.25</float>
+		</dict>
+		
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::TwinnedArrow</string>
+			<float name="chance">0.4</float>
+		</dict>
+
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::TwinnedArrow</string>
+			<float name="chance">0.42</float>
+		</dict>
+
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::TwinnedArrow</string>
+			<float name="chance">0.44</float>
+		</dict>
+
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::TwinnedArrow</string>
+			<float name="chance">0.46</float>
+		</dict>
+
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::TwinnedArrow</string>
+			<float name="chance">0.48</float>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::TwinnedArrow</string>
+			<float name="chance">0.5</float>
+		</dict>
+	</array>
+</dict>

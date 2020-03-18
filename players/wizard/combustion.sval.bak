@@ -1,0 +1,229 @@
+<dict>
+	<string name="name">.skills.wizard.combustion</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>48 120 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+		
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<array name="modifiers">
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">hit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-1</string>
+					</dict>
+				</dict>
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">spellhit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-1</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<array name="modifiers">
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">hit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-2</string>
+					</dict>
+				</dict>
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">spellhit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-2</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<array name="modifiers">
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">hit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-3</string>
+					</dict>
+				</dict>
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">spellhit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-3</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<array name="modifiers">
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">hit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-4</string>
+					</dict>
+				</dict>
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">spellhit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-4</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<array name="modifiers">
+				<dict>
+					<string name="class">Modifiers::CombustionTriggerEffect</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-5</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<array name="modifiers">
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">hit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-6</string>
+					</dict>
+				</dict>
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">spellhit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-6</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<array name="modifiers">
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">hit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-7</string>
+					</dict>
+				</dict>
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">spellhit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-7</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+
+		<!-- Level 8 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<array name="modifiers">
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">hit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-8</string>
+					</dict>
+				</dict>
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">spellhit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-8</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+
+		<!-- Level 9 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<array name="modifiers">
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">hit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-9</string>
+					</dict>
+				</dict>
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">spellhit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-9</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+
+		<!-- Level 10 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<array name="modifiers">
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">hit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-10</string>
+					</dict>
+				</dict>
+				<dict>
+					<string name="class">Modifiers::TriggerEffect</string>
+					<string name="trigger">spellhit</string>
+					<dict name="effect">
+						<string name="class">ApplyBuff</string>
+						<string name="buff">players/buffs.sval:combust-10</string>
+					</dict>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>

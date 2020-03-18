@@ -1,0 +1,133 @@
+<dict>
+	<string name="name">.skills.thief.slice-and-dice</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>72 72 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::Fervor</string>
+			<int name="duration">2500</int>
+			<int name="max-stacks">8</int>
+			<bool name="lose-all">true</bool>
+			<float name="stack-speed">0.02</float>
+
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 0 12 12</vec4>
+			</array>
+		</dict>
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::Fervor</string>
+			<int name="duration">2500</int>
+			<int name="max-stacks">16</int>
+			<bool name="lose-all">true</bool>
+			<float name="stack-speed">0.02</float>
+			
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 0 12 12</vec4>
+			</array>
+		</dict>
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::Fervor</string>
+			<int name="duration">2500</int>
+			<int name="max-stacks">24</int>
+			<bool name="lose-all">true</bool>
+			<float name="stack-speed">0.02</float>
+			
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 0 12 12</vec4>
+			</array>
+		</dict>
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::Fervor</string>
+			<int name="duration">2500</int>
+			<int name="max-stacks">32</int>
+			<bool name="lose-all">true</bool>
+			<float name="stack-speed">0.02</float>
+			
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 0 12 12</vec4>
+			</array>
+		</dict>
+
+		<!-- Level 5 t6-->
+		<dict>
+			<string name="class">Skills::Fervor</string>
+			<int name="duration">3000</int>
+			<int name="max-stacks">35</int>
+			<bool name="lose-all">true</bool>
+			<float name="stack-speed">0.021</float>
+			
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 0 12 12</vec4>
+			</array>
+		</dict>
+
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::Fervor</string>
+			<int name="duration">3500</int>
+			<int name="max-stacks">38</int>
+			<bool name="lose-all">true</bool>
+			<float name="stack-speed">0.022</float>
+			
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 0 12 12</vec4>
+			</array>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::Fervor</string>
+			<int name="duration">4000</int>
+			<int name="max-stacks">41</int>
+			<bool name="lose-all">true</bool>
+			<float name="stack-speed">0.023</float>
+			
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 0 12 12</vec4>
+			</array>
+		</dict>
+
+		<!-- Level 8 -->
+		<dict>
+			<string name="class">Skills::Fervor</string>
+			<int name="duration">4500</int>
+			<int name="max-stacks">44</int>
+			<bool name="lose-all">true</bool>
+			<float name="stack-speed">0.024</float>
+			
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 0 12 12</vec4>
+			</array>
+		</dict>
+
+		<!-- Level 9 -->
+		<dict>
+			<string name="class">Skills::Fervor</string>
+			<int name="duration">5000</int>
+			<int name="max-stacks">50</int>
+			<bool name="lose-all">true</bool>
+			<float name="stack-speed">0.025</float>
+			
+			<array name="hud">
+				<string>gui/icons_buffs.png</string>
+				<int>100</int><vec4>0 0 12 12</vec4>
+			</array>
+		</dict>
+	</array>
+</dict>

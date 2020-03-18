@@ -1,0 +1,195 @@
+<dict>
+	<string name="name">.skills.ranger.powershot</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>168 24 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::ChargeUnit</string>
+
+			<string name="unit">players/ranger/powershot_1.unit</string>
+			<string name="fx">players/ranger/powershot_charge.effect</string>
+			<string name="fx-charged">players/ranger/powershot_charged.effect</string>
+
+			<string name="snd-hold">event:/player/ranger/powershot_charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="cooldown">2000</int>
+			<int name="castpoint">30</int>
+			<bool name="blocking">true</bool>
+			<float name="speed-mul">0.1</float>
+
+			<int name="mana-cost">40</int>
+
+			<int name="hold-frame">30</int>
+			<int name="charge-max">1000</int>
+			<float name="dist">16</float>
+		</dict>
+		
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::ChargeUnit</string>
+
+			<string name="unit">players/ranger/powershot_2.unit</string>
+			<string name="fx">players/ranger/powershot_charge.effect</string>
+			<string name="fx-charged">players/ranger/powershot_charged.effect</string>
+
+			<string name="snd-hold">event:/player/ranger/powershot_charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="cooldown">2000</int>
+			<int name="castpoint">30</int>
+			<bool name="blocking">true</bool>
+			<float name="speed-mul">0.1</float>
+
+			<int name="mana-cost">45</int>
+
+			<int name="hold-frame">30</int>
+			<int name="charge-max">1000</int>
+			<float name="dist">16</float>
+		</dict>
+		
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::ChargeUnit</string>
+
+			<string name="unit">players/ranger/powershot_3.unit</string>
+			<string name="fx">players/ranger/powershot_charge.effect</string>
+			<string name="fx-charged">players/ranger/powershot_charged.effect</string>
+
+			<string name="snd-hold">event:/player/ranger/powershot_charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="cooldown">2000</int>
+			<int name="castpoint">30</int>
+			<bool name="blocking">true</bool>
+			<float name="speed-mul">0.1</float>
+
+			<int name="mana-cost">50</int>
+
+			<int name="hold-frame">30</int>
+			<int name="charge-max">1000</int>
+			<float name="dist">16</float>
+		</dict>
+
+		<!-- Level 4 t6-->
+		<dict>
+			<string name="class">Skills::ChargeUnit</string>
+
+			<string name="unit">players/ranger/powershot_4.unit</string>
+			<string name="fx">players/ranger/powershot_charge.effect</string>
+			<string name="fx-charged">players/ranger/powershot_charged.effect</string>
+
+			<string name="snd-hold">event:/player/ranger/powershot_charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="cooldown">2000</int>
+			<int name="castpoint">30</int>
+			<bool name="blocking">true</bool>
+			<float name="speed-mul">0.1</float>
+
+			<int name="mana-cost">100</int>
+
+			<int name="hold-frame">30</int>
+			<int name="charge-max">1000</int>
+			<float name="dist">16</float>
+		</dict>
+
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::ChargeUnit</string>
+
+			<string name="unit">players/ranger/powershot_5.unit</string>
+			<string name="fx">players/ranger/powershot_charge.effect</string>
+			<string name="fx-charged">players/ranger/powershot_charged.effect</string>
+
+			<string name="snd-hold">event:/player/ranger/powershot_charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="cooldown">2000</int>
+			<int name="castpoint">30</int>
+			<bool name="blocking">true</bool>
+			<float name="speed-mul">0.1</float>
+
+			<int name="mana-cost">200</int>
+
+			<int name="hold-frame">30</int>
+			<int name="charge-max">1000</int>
+			<float name="dist">16</float>
+		</dict>
+
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::ChargeUnit</string>
+
+			<string name="unit">players/ranger/powershot_6.unit</string>
+			<string name="fx">players/ranger/powershot_charge.effect</string>
+			<string name="fx-charged">players/ranger/powershot_charged.effect</string>
+
+			<string name="snd-hold">event:/player/ranger/powershot_charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="cooldown">2000</int>
+			<int name="castpoint">30</int>
+			<bool name="blocking">true</bool>
+			<float name="speed-mul">0.1</float>
+
+			<int name="mana-cost">300</int>
+
+			<int name="hold-frame">30</int>
+			<int name="charge-max">1000</int>
+			<float name="dist">16</float>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::ChargeUnit</string>
+
+			<string name="unit">players/ranger/powershot_7.unit</string>
+			<string name="fx">players/ranger/powershot_charge.effect</string>
+			<string name="fx-charged">players/ranger/powershot_charged.effect</string>
+
+			<string name="snd-hold">event:/player/ranger/powershot_charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="cooldown">2000</int>
+			<int name="castpoint">30</int>
+			<bool name="blocking">true</bool>
+			<float name="speed-mul">0.1</float>
+
+			<int name="mana-cost">450</int>
+
+			<int name="hold-frame">30</int>
+			<int name="charge-max">1000</int>
+			<float name="dist">16</float>
+		</dict>
+
+		<!-- Level 8 -->
+		<dict>
+			<string name="class">Skills::ChargeUnit</string>
+
+			<string name="unit">players/ranger/powershot_8.unit</string>
+			<string name="fx">players/ranger/powershot_charge.effect</string>
+			<string name="fx-charged">players/ranger/powershot_charged.effect</string>
+
+			<string name="snd-hold">event:/player/ranger/powershot_charge</string>
+			<string name="anim">charge 8</string>
+			
+			<int name="cooldown">2000</int>
+			<int name="castpoint">30</int>
+			<bool name="blocking">true</bool>
+			<float name="speed-mul">0.1</float>
+
+			<int name="mana-cost">575</int>
+
+			<int name="hold-frame">30</int>
+			<int name="charge-max">1000</int>
+			<float name="dist">16</float>
+		</dict>
+	</array>
+</dict>

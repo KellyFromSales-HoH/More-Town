@@ -1,0 +1,60 @@
+<dict>
+	<string name="name">.skills.wizard.scorched-earth</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>144 120 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+		
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::ScorchedEarth</string>
+			<string name="unit">players/wizard/scorched_earth_1.unit</string>
+			<float name="duration-mul">0.5</float>
+		</dict>
+		
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::ScorchedEarth</string>
+			<string name="unit">players/wizard/scorched_earth_2.unit</string>
+			<float name="duration-mul">1.0</float>
+		</dict>
+
+		<!-- Level 3 t6-->
+		<dict>
+			<string name="class">Skills::ScorchedEarth</string>
+			<string name="unit">players/wizard/scorched_earth_3.unit</string>
+			<float name="duration-mul">1.3</float>
+		</dict>
+
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::ScorchedEarth</string>
+			<string name="unit">players/wizard/scorched_earth_4.unit</string>
+			<float name="duration-mul">1.6</float>
+		</dict>
+
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::ScorchedEarth</string>
+			<string name="unit">players/wizard/scorched_earth_5.unit</string>
+			<float name="duration-mul">1.9</float>
+		</dict>
+
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::ScorchedEarth</string>
+			<string name="unit">players/wizard/scorched_earth_6.unit</string>
+			<float name="duration-mul">2.2</float>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::ScorchedEarth</string>
+			<string name="unit">players/wizard/scorched_earth_7.unit</string>
+			<float name="duration-mul">2.5</float>
+		</dict>
+	</array>
+</dict>

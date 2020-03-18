@@ -1,0 +1,60 @@
+<dict>
+	<string name="name">.skills.gladiator.strength-in-numbers</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>144 168 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::ArenaMastery</string>
+			<int name="extra-projectiles">1</int>
+			<int name="extra-secutor">1</int>
+		</dict>
+
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::ArenaMastery</string>
+			<int name="extra-projectiles">2</int>
+			<int name="extra-secutor">2</int>
+		</dict>
+
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::ArenaMastery</string>
+			<int name="extra-projectiles">3</int>
+			<int name="extra-secutor">3</int>
+		</dict>
+
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::ArenaMastery</string>
+			<int name="extra-projectiles">4</int>
+			<int name="extra-secutor">4</int>
+		</dict>
+
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::ArenaMastery</string>
+			<int name="extra-projectiles">5</int>
+			<int name="extra-secutor">5</int>
+		</dict>
+
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::ArenaMastery</string>
+			<int name="extra-projectiles">6</int>
+			<int name="extra-secutor">6</int>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::ArenaMastery</string>
+			<int name="extra-projectiles">7</int>
+			<int name="extra-secutor">7</int>
+		</dict>
+	</array>
+</dict>

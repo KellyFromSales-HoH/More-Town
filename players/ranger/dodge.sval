@@ -1,0 +1,52 @@
+<dict>
+	<string name="name">.skills.ranger.dodge</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>48 24 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+		
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<dict name="modifier">
+				<string name="class">Modifiers::Evade</string>
+				<float name="chance">0.05</float>
+			</dict>
+		</dict>
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<dict name="modifier">
+				<string name="class">Modifiers::Evade</string>
+				<float name="chance">0.1</float>
+			</dict>
+		</dict>
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<dict name="modifier">
+				<string name="class">Modifiers::Evade</string>
+				<float name="chance">0.15</float>
+			</dict>
+		</dict>
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<dict name="modifier">
+				<string name="class">Modifiers::Evade</string>
+				<float name="chance">0.2</float>
+			</dict>
+		</dict>
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+			<dict name="modifier">
+				<string name="class">Modifiers::Evade</string>
+				<float name="chance">0.25</float>
+			</dict>
+		</dict>
+	</array>
+</dict>

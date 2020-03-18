@@ -1,0 +1,200 @@
+<dict>
+	<string name="name">.skills.sorcerer.shatter</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>144 48 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+		
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::Shatter</string>
+			<string name="trigger">kill</string>
+			<float name="required-hp">1</float>
+			<float name="chance">1</float>
+
+			<dict name="action">
+				<string name="class">Explode</string>
+				<string name="fx">players/sorcerer/shatter.effect</string>
+				<int name="radius">32</int>
+				<float name="dist-scaling">5</float>
+				<float name="team-dmg">0</float>
+				<array name="effects">
+					<dict>
+						<string name="class">Damage</string>
+						<int name="physical">20</int>
+						<int name="magical">20</int>
+					</dict>
+					<dict>
+						<string name="class">PlaySound</string>
+						<string name="sound">event:/player/sorcerer/shatter</string>
+					</dict>	
+				</array>
+			</dict>
+		</dict>
+		
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::Shatter</string>
+			<string name="trigger">kill</string>
+			<float name="required-hp">1</float>
+			<float name="chance">1</float>
+
+			<dict name="action">
+				<string name="class">Explode</string>
+				<string name="fx">players/sorcerer/shatter.effect</string>
+				<int name="radius">32</int>
+				<float name="dist-scaling">5</float>
+				<float name="team-dmg">0</float>
+				<array name="effects">
+					<dict>
+						<string name="class">Damage</string>
+						<int name="physical">40</int>
+						<int name="magical">40</int>
+					</dict>
+					<dict>
+						<string name="class">PlaySound</string>
+						<string name="sound">event:/player/sorcerer/shatter</string>
+					</dict>	
+				</array>
+			</dict>
+		</dict>
+
+		<!-- Level 3 t6-->
+		<dict>
+			<string name="class">Skills::Shatter</string>
+			<string name="trigger">kill</string>
+			<float name="required-hp">1</float>
+			<float name="chance">1</float>
+
+			<dict name="action">
+				<string name="class">Explode</string>
+				<string name="fx">players/sorcerer/shatter.effect</string>
+				<int name="radius">32</int>
+				<float name="dist-scaling">5</float>
+				<float name="team-dmg">0</float>
+				<array name="effects">
+					<dict>
+						<string name="class">Damage</string>
+						<int name="physical">100</int>
+						<int name="magical">100</int>
+					</dict>
+					<dict>
+						<string name="class">PlaySound</string>
+						<string name="sound">event:/player/sorcerer/shatter</string>
+					</dict>	
+				</array>
+			</dict>
+		</dict>
+
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::Shatter</string>
+			<string name="trigger">kill</string>
+			<float name="required-hp">1</float>
+			<float name="chance">1</float>
+
+			<dict name="action">
+				<string name="class">Explode</string>
+				<string name="fx">players/sorcerer/shatter.effect</string>
+				<int name="radius">32</int>
+				<float name="dist-scaling">5</float>
+				<float name="team-dmg">0</float>
+				<array name="effects">
+					<dict>
+						<string name="class">Damage</string>
+						<int name="physical">300</int>
+						<int name="magical">300</int>
+					</dict>
+					<dict>
+						<string name="class">PlaySound</string>
+						<string name="sound">event:/player/sorcerer/shatter</string>
+					</dict>	
+				</array>
+			</dict>
+		</dict>
+
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::Shatter</string>
+			<string name="trigger">kill</string>
+			<float name="required-hp">1</float>
+			<float name="chance">1</float>
+
+			<dict name="action">
+				<string name="class">Explode</string>
+				<string name="fx">players/sorcerer/shatter.effect</string>
+				<int name="radius">32</int>
+				<float name="dist-scaling">5</float>
+				<float name="team-dmg">0</float>
+				<array name="effects">
+					<dict>
+						<string name="class">Damage</string>
+						<int name="physical">750</int>
+						<int name="magical">750</int>
+					</dict>
+					<dict>
+						<string name="class">PlaySound</string>
+						<string name="sound">event:/player/sorcerer/shatter</string>
+					</dict>	
+				</array>
+			</dict>
+		</dict>
+
+		<!-- Level 6 t9-->
+		<dict>
+			<string name="class">Skills::Shatter</string>
+			<string name="trigger">kill</string>
+			<float name="required-hp">1</float>
+			<float name="chance">1</float>
+
+			<dict name="action">
+				<string name="class">Explode</string>
+				<string name="fx">players/sorcerer/shatter.effect</string>
+				<int name="radius">32</int>
+				<float name="dist-scaling">5</float>
+				<float name="team-dmg">0</float>
+				<array name="effects">
+					<dict>
+						<string name="class">Damage</string>
+						<int name="physical">1875</int>
+						<int name="magical">1875</int>
+					</dict>
+					<dict>
+						<string name="class">PlaySound</string>
+						<string name="sound">event:/player/sorcerer/shatter</string>
+					</dict>	
+				</array>
+			</dict>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::Shatter</string>
+			<string name="trigger">kill</string>
+			<float name="required-hp">1</float>
+			<float name="chance">1</float>
+
+			<dict name="action">
+				<string name="class">Explode</string>
+				<string name="fx">players/sorcerer/shatter.effect</string>
+				<int name="radius">32</int>
+				<float name="dist-scaling">5</float>
+				<float name="team-dmg">0</float>
+				<array name="effects">
+					<dict>
+						<string name="class">Damage</string>
+						<int name="physical">4700</int>
+						<int name="magical">4700</int>
+					</dict>
+					<dict>
+						<string name="class">PlaySound</string>
+						<string name="sound">event:/player/sorcerer/shatter</string>
+					</dict>	
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>

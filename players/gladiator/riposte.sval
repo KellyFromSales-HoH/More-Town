@@ -1,0 +1,92 @@
+<dict>
+	<string name="name">.skills.gladiator.riposte</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>120 168 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::Riposte</string>
+			<float name="block">0.8</float>
+			<int name="blockcd">200</int>
+			<string name="block-fx">players/gladiator/riposte.effect</string>
+			<!-- <string name="block-fx">players/sorcerer/ice_barrier.effect</string> -->
+		</dict>
+		
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::Riposte</string>
+			<float name="block">0.6</float>
+			<int name="blockcd">200</int>
+			<string name="block-fx">players/gladiator/riposte.effect</string>
+			<!-- <string name="block-fx">players/sorcerer/ice_barrier.effect</string> -->
+		</dict>
+		
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::Riposte</string>
+			<float name="block">0.4</float>
+			<int name="blockcd">200</int>
+			<string name="block-fx">players/gladiator/riposte.effect</string>
+			<!-- <string name="block-fx">players/sorcerer/ice_barrier.effect</string> -->
+		</dict>
+		
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::Riposte</string>
+			<float name="block">0.2</float>
+			<int name="blockcd">200</int>
+			<string name="block-fx">players/gladiator/riposte.effect</string>
+			<!-- <string name="block-fx">players/sorcerer/ice_barrier.effect</string> -->
+		</dict>
+		
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::Riposte</string>
+			<float name="block">0</float>
+			<int name="time">200</int>
+			<string name="block-fx">players/gladiator/riposte.effect</string>
+			<!-- <string name="block-fx">players/sorcerer/ice_barrier.effect</string> -->
+		</dict>
+		
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::Riposte</string>
+			<float name="block">0</float>
+			<int name="time">500</int>
+			<string name="block-fx">players/gladiator/riposte.effect</string>
+			<!-- <string name="block-fx">players/sorcerer/ice_barrier.effect</string> -->
+		</dict>
+		
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::Riposte</string>
+			<float name="block">0</float>
+			<int name="time">1000</int>
+			<string name="block-fx">players/gladiator/riposte.effect</string>
+			<!-- <string name="block-fx">players/sorcerer/ice_barrier.effect</string> -->
+		</dict>
+		
+		<!-- Level 8 -->
+		<dict>
+			<string name="class">Skills::Riposte</string>
+			<float name="block">0</float>
+			<int name="time">1500</int>
+			<string name="block-fx">players/gladiator/riposte.effect</string>
+			<!-- <string name="block-fx">players/sorcerer/ice_barrier.effect</string> -->
+		</dict>
+		
+		<!-- Level 9 -->
+		<dict>
+			<string name="class">Skills::Riposte</string>
+			<float name="block">0</float>
+			<int name="time">2000</int>
+			<string name="block-fx">players/gladiator/riposte.effect</string>
+			<!-- <string name="block-fx">players/sorcerer/ice_barrier.effect</string> -->
+		</dict>
+	</array>
+</dict>

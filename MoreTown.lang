@@ -1,0 +1,654 @@
+<lang>
+	<!-- SYSTEM -->
+
+		<!-- TOWN -->
+			<!-- town hall -->
+			<string name="shop.townhall.townhall-6.name">Town Hall VI</string>
+			<string name="shop.townhall.townhall-6.desc">Unlocks Tier 6 Buildings.</string>
+
+			<string name="shop.townhall.townhall-7.name">Town Hall VII</string>
+			<string name="shop.townhall.townhall-7.desc">Unlocks Tier 7 Buildings.</string>
+
+			<string name="shop.townhall.townhall-8.name">Town Hall VIII</string>
+			<string name="shop.townhall.townhall-8.desc">Unlocks Tier 8 Buildings.</string>
+
+			<string name="shop.townhall.townhall-9.name">Town Hall IX</string>
+			<string name="shop.townhall.townhall-9.desc">Unlocks Tier 9 Buildings.</string>
+
+			<string name="shop.townhall.townhall-10.name">Town Hall X</string>
+			<string name="shop.townhall.townhall-10.desc">Unlocks Tier 10 Buildings.</string>
+
+			<string name="shop.townhall.apothecary-4.name">Apothecary IV</string>
+			<string name="shop.townhall.apothecary-4.desc">Buy upgrades to your potion and pickup effectiveness.</string>
+
+			<string name="shop.townhall.apothecary-5.name">Apothecary V</string>
+			<string name="shop.townhall.apothecary-5.desc">Buy upgrades to your potion and pickup effectiveness.</string>
+
+			<string name="shop.townhall.apothecary-6.name">Apothecary VI</string>
+			<string name="shop.townhall.apothecary-6.desc">Buy upgrades to your potion and pickup effectiveness.</string>
+
+			<string name="shop.townhall.blacksmith-6.name">Blacksmith VI</string>
+			<string name="shop.townhall.blacksmith-6.desc">Buy upgrades to your Weapons and Armor.</string>
+
+			<string name="shop.townhall.blacksmith-7.name">Blacksmith VII</string>
+			<string name="shop.townhall.blacksmith-7.desc">Buy upgrades to your Weapons and Armor.</string>
+
+			<string name="shop.townhall.blacksmith-8.name">Blacksmith VIII</string>
+			<string name="shop.townhall.blacksmith-8.desc">Buy upgrades to your Weapons and Armor.</string>
+
+			<string name="shop.townhall.blacksmith-9.name">Blacksmith IX</string>
+			<string name="shop.townhall.blacksmith-9.desc">Buy upgrades to your Weapons and Armor.</string>
+
+			<string name="shop.townhall.blacksmith-10.name">Blacksmith X</string>
+			<string name="shop.townhall.blacksmith-10.desc">Buy upgrades to your Weapons and Armor.</string>
+
+			<string name="shop.townhall.generalstore-6.name">General Store VI</string>
+			<string name="shop.townhall.generalstore-6.desc">Buy Keys and Items (2 common, 2 uncommon, 2 rare). Prices are 20% cheaper.</string>
+
+			<string name="shop.townhall.generalstore-7.name">General Store VII</string>
+			<string name="shop.townhall.generalstore-7.desc">Buy Keys and Items (2 common, 2 uncommon, 2 rare, 1 epic). Prices are 25% cheaper.</string>
+
+			<string name="shop.townhall.guildhall-6.name">Guild Hall VI</string>
+			<string name="shop.townhall.guildhall-6.desc">Upgrade your skills to Tier 6.</string>
+
+			<string name="shop.townhall.guildhall-7.name">Guild Hall VII</string>
+			<string name="shop.townhall.guildhall-7.desc">Upgrade your skills to Tier 7.</string>
+
+			<string name="shop.townhall.guildhall-8.name">Guild Hall VIII</string>
+			<string name="shop.townhall.guildhall-8.desc">Upgrade your skills to Tier 8.</string>
+
+			<string name="shop.townhall.guildhall-9.name">Guild Hall IX</string>
+			<string name="shop.townhall.guildhall-9.desc">Upgrade your skills to Tier 9.</string>
+
+			<string name="shop.townhall.guildhall-10.name">Guild Hall X</string>
+			<string name="shop.townhall.guildhall-10.desc">Upgrade your skills to Tier 10.</string>
+
+			<string name="shop.townhall.magicshop-4.name">Magic Shop IV</string>
+			<string name="shop.townhall.magicshop-4.desc">Buy upgrades to your Skills and Resistance.</string>
+
+			<string name="shop.townhall.magicshop-5.name">Magic Shop V</string>
+			<string name="shop.townhall.magicshop-5.desc">Buy upgrades to your Skills and Resistance.</string>
+
+			<string name="shop.townhall.magicshop-6.name">Magic Shop VI</string>
+			<string name="shop.townhall.magicshop-6.desc">Buy upgrades to your Skills and Resistance.</string>
+
+			<string name="shop.townhall.magicshop-7.name">Magic Shop VII</string>
+			<string name="shop.townhall.magicshop-7.desc">Buy upgrades to your Skills and Resistance.</string>
+
+			<string name="shop.townhall.magicshop-8.name">Magic Shop VIII</string>
+			<string name="shop.townhall.magicshop-8.desc">Buy upgrades to your Skills and Resistance.</string>
+
+			<string name="shop.townhall.oretrader-4.name">Ore Trader IV</string>
+			<string name="shop.townhall.oretrader-4.desc">Buy and sell more ore. Better trade rates.</string>
+
+			<string name="shop.townhall.oretrader-5.name">Ore Trader V</string>
+			<string name="shop.townhall.oretrader-5.desc">Buy and sell all the ore. Equal trade rates.</string>
+
+			<string name="shop.townhall.treasury-5.name">Treasury V</string>
+			<string name="shop.townhall.treasury-5.desc">50% tax rate at 20000000 total gold.</string>
+
+			<string name="shop.townhall.treasury-6.name">Treasury VI</string>
+			<string name="shop.townhall.treasury-6.desc">50% tax rate at 40000000 total gold.</string>
+
+			<string name="shop.townhall.treasury-7.name">Treasury VII</string>
+			<string name="shop.townhall.treasury-7.desc">50% tax rate at 60000000 total gold.</string>
+
+			<string name="shop.townhall.treasury-8.name">Treasury VIII</string>
+			<string name="shop.townhall.treasury-8.desc">50% tax rate at 80000000 total gold.</string>
+
+			<string name="shop.townhall.treasury-9.name">Treasury IX</string>
+			<string name="shop.townhall.treasury-9.desc">50% tax rate at 100000000 total gold.</string>
+
+			<!-- apothecary -->
+			<string name="shop.apothecary.charges.name">Potion Charges %lvl%</string>
+			<string name="shop.apothecary.charges.desc">Your potion will have %num% charges.</string>
+
+			<string name="shop.apothecary.healing.name">Healing Draught %lvl%</string>
+			<string name="shop.apothecary.healing.desc">Increases the amount of healing gained from your potion from %from% to %to%.</string>
+
+			<string name="shop.apothecary.mana.name">Mana Draught %lvl%</string>
+			<string name="shop.apothecary.mana.desc">Increases the amount of mana gained from your potion from %from% to %to%.</string>
+
+			<string name="shop.apothecary.heal-pickups.name">Invigorating Spices %lvl%</string>
+			<string name="shop.apothecary.heal-pickups.desc">The effectiveness of health pickups is increased by %num%%.</string>
+
+			<string name="shop.apothecary.mana-pickups.name">Mana Extractor %lvl%</string>
+			<string name="shop.apothecary.mana-pickups.desc">The effectiveness of mana pickups is increased by %num%%.</string>
+
+			<!-- general store -->
+			<string name="shop.generalstore.keyace.name">Ace Key</string>
+			<string name="shop.generalstore.keyace.desc">Used to open Ace chests.</string>
+
+			<!-- blacksmith -->
+			<string name="shop.blacksmith.armor-11.name">Armor XI</string>
+			<string name="shop.blacksmith.armor-11.desc">+65 to your Armor.</string>
+
+			<string name="shop.blacksmith.armor-12.name">Armor XII</string>
+			<string name="shop.blacksmith.armor-12.desc">+95 to your Armor.</string>
+
+			<string name="shop.blacksmith.armor-13.name">Armor XIII</string>
+			<string name="shop.blacksmith.armor-13.desc">+140 to your Armor.</string>
+
+			<string name="shop.blacksmith.armor-14.name">Armor XIV</string>
+			<string name="shop.blacksmith.armor-14.desc">+200 to your Armor.</string>
+
+			<string name="shop.blacksmith.armor-15.name">Armor XV</string>
+			<string name="shop.blacksmith.armor-15.desc">+275 to your Armor.</string>
+
+			<string name="shop.blacksmith.weapon-11.name">Weapon XI</string>
+			<string name="shop.blacksmith.weapon-11.desc">+108 to your Attack Power.</string>
+
+			<string name="shop.blacksmith.weapon-12.name">Weapon XII</string>
+			<string name="shop.blacksmith.weapon-12.desc">+164 to your Attack Power.</string>
+
+			<string name="shop.blacksmith.weapon-13.name">Weapon XIII</string>
+			<string name="shop.blacksmith.weapon-13.desc">+248 to your Attack Power.</string>
+
+			<string name="shop.blacksmith.weapon-14.name">Weapon XIV</string>
+			<string name="shop.blacksmith.weapon-14.desc">+360 to your Attack Power.</string>
+
+			<string name="shop.blacksmith.weapon-15.name">Weapon XV</string>
+			<string name="shop.blacksmith.weapon-15.desc">+500 to your Attack Power.</string>
+
+			<string name="shop.blacksmith.criticalchance-6.name">Critical Chance VI</string>
+			<string name="shop.blacksmith.criticalchance-6.desc">15% chance to crit on your Primary attack.</string>
+
+			<string name="shop.blacksmith.criticalchance-7.name">Critical Chance VII</string>
+			<string name="shop.blacksmith.criticalchance-7.desc">17.5% chance to crit on your Primary attack.</string>
+
+			<string name="shop.blacksmith.criticalchance-8.name">Critical Chance VIII</string>
+			<string name="shop.blacksmith.criticalchance-8.desc">20% chance to crit on your Primary attack.</string>
+
+			<string name="shop.blacksmith.criticalchance-9.name">Critical Chance IX</string>
+			<string name="shop.blacksmith.criticalchance-9.desc">22.5% chance to crit on your Primary attack.</string>
+
+			<string name="shop.blacksmith.criticalchance-10.name">Critical Chance X</string>
+			<string name="shop.blacksmith.criticalchance-10.desc">25% chance to crit on your Primary attack.</string>
+
+			<string name="shop.blacksmith.criticaldamage-4.name">Critical Damage IV</string>
+			<string name="shop.blacksmith.criticaldamage-4.desc">Increases Critical Damage on your Primary attack to 4x.</string>
+
+			<string name="shop.blacksmith.criticaldamage-5.name">Critical Damage V</string>
+			<string name="shop.blacksmith.criticaldamage-5.desc">Increases Critical Damage on your Primary attack to 4.5x.</string>
+
+			<string name="shop.blacksmith.criticaldamage-6.name">Critical Damage VI</string>
+			<string name="shop.blacksmith.criticaldamage-6.desc">Increases Critical Damage on your Primary attack to 5x.</string>
+
+			<string name="shop.blacksmith.movespeed-6.name">Boots VI</string>
+			<string name="shop.blacksmith.movespeed-6.desc">+0.7 to your Move Speed</string>
+
+			<string name="shop.blacksmith.movespeed-7.name">Boots VII</string>
+			<string name="shop.blacksmith.movespeed-7.desc">+0.9 to your Move Speed</string>
+
+			<string name="shop.blacksmith.movespeed-8.name">Boots VIII</string>
+			<string name="shop.blacksmith.movespeed-8.desc">+1.1 to your Move Speed</string>
+
+			<string name="shop.blacksmith.movespeed-9.name">Boots IX</string>
+			<string name="shop.blacksmith.movespeed-9.desc">+1.3 to your Move Speed</string>
+
+			<string name="shop.blacksmith.movespeed-10.name">Boots X</string>
+			<string name="shop.blacksmith.movespeed-10.desc">+1.5 to your Move Speed</string>
+
+			<!-- magic shop -->
+			<string name="shop.magicshop.resistance-7.name">Resistance VII</string>
+			<string name="shop.magicshop.resistance-7.desc">+45 to your Resistance.</string>
+
+			<string name="shop.magicshop.resistance-8.name">Resistance VIII</string>
+			<string name="shop.magicshop.resistance-8.desc">+75 to your Resistance.</string>
+
+			<string name="shop.magicshop.resistance-9.name">Resistance IX</string>
+			<string name="shop.magicshop.resistance-9.desc">+120 to your Resistance.</string>
+
+			<string name="shop.magicshop.resistance-10.name">Resistance X</string>
+			<string name="shop.magicshop.resistance-10.desc">+180 to your Resistance.</string>
+
+			<string name="shop.magicshop.resistance-11.name">Resistance XI</string>
+			<string name="shop.magicshop.resistance-11.desc">+255 to your Resistance.</string>
+
+			<string name="shop.magicshop.spellpower-7.name">Skill Damage VII</string>
+			<string name="shop.magicshop.spellpower-7.desc">+58 to your Skill Power.</string>
+
+			<string name="shop.magicshop.spellpower-8.name">Skill Damage VIII</string>
+			<string name="shop.magicshop.spellpower-8.desc">+114 to your Skill Power.</string>
+
+			<string name="shop.magicshop.spellpower-9.name">Skill Damage IX</string>
+			<string name="shop.magicshop.spellpower-9.desc">+198 to your Skill Power.</string>
+
+			<string name="shop.magicshop.spellpower-10.name">Skill Damage X</string>
+			<string name="shop.magicshop.spellpower-10.desc">+314 to your Skill Power.</string>
+
+			<string name="shop.magicshop.spellpower-11.name">Skill Damage XI</string>
+			<string name="shop.magicshop.spellpower-11.desc">+450 to your Skill Power.</string>
+
+			<string name="shop.magicshop.spellcritchance-4.name">Skill Crit Chance IV</string>
+			<string name="shop.magicshop.spellcritchance-4.desc">17% chance to deal Critical Damage with Skills.</string>
+
+			<string name="shop.magicshop.spellcritchance-5.name">Skill Crit Chance V</string>
+			<string name="shop.magicshop.spellcritchance-5.desc">19% chance to deal Critical Damage with Skills.</string>
+
+			<string name="shop.magicshop.spellcritchance-6.name">Skill Crit Chance VI</string>
+			<string name="shop.magicshop.spellcritchance-6.desc">21% chance to deal Critical Damage with Skills.</string>
+
+			<string name="shop.magicshop.spellcritchance-7.name">Skill Crit Chance VII</string>
+			<string name="shop.magicshop.spellcritchance-7.desc">23% chance to deal Critical Damage with Skills.</string>
+
+			<string name="shop.magicshop.spellcritchance-8.name">Skill Crit Chance VIII</string>
+			<string name="shop.magicshop.spellcritchance-8.desc">25% chance to deal Critical Damage with Skills.</string>
+
+			<string name="shop.magicshop.spellcritdamage-3.name">Skill Crit Damage III</string>
+			<string name="shop.magicshop.spellcritdamage-3.desc">Increases Critical Damage of your Skills to 3.5x.</string>
+
+			<string name="shop.magicshop.spellcritdamage-4.name">Skill Crit Damage IV</string>
+			<string name="shop.magicshop.spellcritdamage-4.desc">Increases Critical Damage of your Skills to 4x.</string>
+
+			<string name="shop.magicshop.spellcritdamage-5.name">Skill Crit Damage V</string>
+			<string name="shop.magicshop.spellcritdamage-5.desc">Increases Critical Damage of your Skills to 5x.</string>
+
+
+		<!-- SKILLS -->
+			<!-- Paladin -->
+			<string name="skills.paladin.sword.7">Melee attack that deals 78 Physical damage in a 240 degree arc.</string>
+			<string name="skills.paladin.sword.8">Melee attack that deals 234 Physical damage in a 240 degree arc.</string>
+			<string name="skills.paladin.sword.9">Melee attack that deals 585 Physical damage in a 240 degree arc.</string>
+			<string name="skills.paladin.sword.10">Melee attack that deals 1463 Physical damage in a 240 degree arc.</string>
+			<string name="skills.paladin.sword.11">Melee attack that deals 3650 Physical damage in a 240 degree arc.</string>
+
+			<string name="skills.paladin.charge.7">Dash forward. Enemies in your path take 188 Physical damage.</string>
+			<string name="skills.paladin.charge.8">Dash forward. Enemies in your path take 564 Physical damage.</string>
+			<string name="skills.paladin.charge.9">Dash forward. Enemies in your path take 1410 Physical damage.</string>
+			<string name="skills.paladin.charge.10">Dash forward. Enemies in your path take 3525 Physical damage.</string>
+			<string name="skills.paladin.charge.11">Dash forward. Enemies in your path take 8800 Physical damage.</string>
+
+			<string name="skills.paladin.shield.6">Blocks most incoming projectiles within a 240-degree arc. The shield also has a 26% chance to block 63 Physical damage.</string>
+			<string name="skills.paladin.shield.7">Blocks most incoming projectiles within a 270-degree arc. The shield also has a 27% chance to block 189 Physical damage.</string>
+			<string name="skills.paladin.shield.8">Blocks most incoming projectiles within a 300-degree arc. The shield also has a 28% chance to block 473 Physical damage.</string>
+			<string name="skills.paladin.shield.9">Blocks most incoming projectiles within a 330-degree arc. The shield also has a 29% chance to block 1182 Physical damage.</string>
+			<string name="skills.paladin.shield.10">Blocks most incoming projectiles within a 360-degree arc. The shield also has a 30% chance to block 3000 Physical damage.</string>
+
+			<string name="skills.paladin.stunning-blows.5">\caac8ffSword\d has a 26% chance to stun enemies for 2.6 seconds.</string>
+			<string name="skills.paladin.stunning-blows.6">\caac8ffSword\d has a 27% chance to stun enemies for 2.7 seconds.</string>
+			<string name="skills.paladin.stunning-blows.7">\caac8ffSword\d has a 28% chance to stun enemies for 2.8 seconds.</string>
+			<string name="skills.paladin.stunning-blows.8">\caac8ffSword\d has a 29% chance to stun enemies for 2.9 seconds.</string>
+			<string name="skills.paladin.stunning-blows.9">\caac8ffSword\d has a 30% chance to stun enemies for 3 seconds.</string>
+
+			<string name="skills.paladin.lay-on-hands.5">Applies a buff to all allies around the Paladin that lasts for 4.6 seconds. The buff restores 23 health + 2.2% of max health. The buff also applies a shield that has 26% chance to block 50 Magical damage.</string>
+			<string name="skills.paladin.lay-on-hands.6">Applies a buff to all allies around the Paladin that lasts for 4.7 seconds. The buff restores 69 health + 2.4% of max health. The buff also applies a shield that has 27% chance to block 150 Magical damage.</string>
+			<string name="skills.paladin.lay-on-hands.7">Applies a buff to all allies around the Paladin that lasts for 4.8 seconds. The buff restores 173 health + 2.6% of max health. The buff also applies a shield that has 28% chance to block 375 Magical damage.</string>
+			<string name="skills.paladin.lay-on-hands.8">Applies a buff to all allies around the Paladin that lasts for 4.9 seconds. The buff restores 432 health + 2.8% of max health. The buff also applies a shield that has 29% chance to block 938 Magical damage.</string>
+			<string name="skills.paladin.lay-on-hands.9">Applies a buff to all allies around the Paladin that lasts for 5 seconds. The buff restores 1100 health + 3% of max health. The buff also applies a shield that has 30% chance to block 2350 Magical damage.</string>
+
+			<string name="skills.paladin.whirlwind.4">A spinning attack that deals 125 Physical damage to all enemies around the Paladin. Whirlwind lasts for 5.2 seconds.</string>
+			<string name="skills.paladin.whirlwind.5">A spinning attack that deals 375 Physical damage to all enemies around the Paladin. Whirlwind lasts for 5.4 seconds.</string>
+			<string name="skills.paladin.whirlwind.6">A spinning attack that deals 938 Physical damage to all enemies around the Paladin. Whirlwind lasts for 5.6 seconds.</string>
+			<string name="skills.paladin.whirlwind.7">A spinning attack that deals 2345 Physical damage to all enemies around the Paladin. Whirlwind lasts for 5.8 seconds.</string>
+			<string name="skills.paladin.whirlwind.8">A spinning attack that deals 5875 Physical damage to all enemies around the Paladin. Whirlwind lasts for 6 seconds.</string>
+
+			<string name="skills.paladin.flames-of-devotion.3">Each hit with \caac8ffSword\d adds 2 Magical damage to all of the Paladin's skills. Stacks up to 30 times, each stack lasts for 1.2 second.</string>
+			<string name="skills.paladin.flames-of-devotion.4">Each hit with \caac8ffSword\d adds 6 Magical damage to all of the Paladin's skills. Stacks up to 30 times, each stack lasts for 1.4 second.</string>
+			<string name="skills.paladin.flames-of-devotion.5">Each hit with \caac8ffSword\d adds 15 Magical damage to all of the Paladin's skills. Stacks up to 30 times, each stack lasts for 1.6 second.</string>
+			<string name="skills.paladin.flames-of-devotion.6">Each hit with \caac8ffSword\d adds 38 Magical damage to all of the Paladin's skills. Stacks up to 30 times, each stack lasts for 1.8 second.</string>
+			<string name="skills.paladin.flames-of-devotion.7">Each hit with \caac8ffSword\d adds 90 Magical damage to all of the Paladin's skills. Stacks up to 30 times, each stack lasts for 2 second.</string>
+			
+			<!-- Priest -->
+			<string name="skills.priest.smite.7">A short-ranged attack dealing 46 Hybrid damage. Slightly larger impact area.</string>
+			<string name="skills.priest.smite.8">A short-ranged attack dealing 138 Hybrid damage. Slightly larger impact area.</string>
+			<string name="skills.priest.smite.9">A short-ranged attack dealing 344 Hybrid damage. Slightly larger impact area.</string>
+			<string name="skills.priest.smite.10">A short-ranged attack dealing 860 Hybrid damage. Slightly larger impact area.</string>
+			<string name="skills.priest.smite.11">A short-ranged attack dealing 2150 Hybrid damage. Slightly larger impact area.</string>
+
+			<string name="skills.priest.holy-light.7">Fires a beam of light that deals up to 130 Magical damage and will heal allies for 18 health + 1.2% of max health.</string>
+			<string name="skills.priest.holy-light.8">Fires a beam of light that deals up to 390 Magical damage and will heal allies for 54 health + 1.4% of max health.</string>
+			<string name="skills.priest.holy-light.9">Fires a beam of light that deals up to 975 Magical damage and will heal allies for 135 health + 1.6% of max health.</string>
+			<string name="skills.priest.holy-light.10">Fires a beam of light that deals up to 2438 Magical damage and will heal allies for 338 health + 1.8% of max health.</string>
+			<string name="skills.priest.holy-light.11">Fires a beam of light that deals up to 6100 Magical damage and will heal allies for 850 health + 2% of max health.</string>
+
+			<string name="skills.priest.divine-protection.6">The shield absorbs 52% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
+			<string name="skills.priest.divine-protection.7">The shield absorbs 54% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
+			<string name="skills.priest.divine-protection.8">The shield absorbs 56% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
+			<string name="skills.priest.divine-protection.9">The shield absorbs 58% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
+			<string name="skills.priest.divine-protection.10">The shield absorbs 60% of incoming damage for a cost of 0.5 mana per damage absorbed.</string>
+
+			<string name="skills.priest.remedy.5">The Priest regains health 220% more effectively from all sources.</string>
+			<string name="skills.priest.remedy.6">The Priest regains health 240% more effectively from all sources.</string>
+			<string name="skills.priest.remedy.7">The Priest regains health 260% more effectively from all sources.</string>
+			<string name="skills.priest.remedy.8">The Priest regains health 280% more effectively from all sources.</string>
+			<string name="skills.priest.remedy.9">The Priest regains health 300% more effectively from all sources.</string>
+
+			<string name="skills.priest.consecrated-ground.5">A field is placed on the ground that lasts for 6.6 seconds. Enemies in the area take 100 Magical damage per second. 26% of the damage dealt is returned to allies in the area as health.</string>
+			<string name="skills.priest.consecrated-ground.6">A field is placed on the ground that lasts for 6.7 seconds. Enemies in the area take 300 Magical damage per second. 27% of the damage dealt is returned to allies in the area as health.</string>
+			<string name="skills.priest.consecrated-ground.7">A field is placed on the ground that lasts for 6.8 seconds. Enemies in the area take 750 Magical damage per second. 28% of the damage dealt is returned to allies in the area as health.</string>
+			<string name="skills.priest.consecrated-ground.8">A field is placed on the ground that lasts for 6.9 seconds. Enemies in the area take 1876 Magical damage per second. 29% of the damage dealt is returned to allies in the area as health.</string>
+			<string name="skills.priest.consecrated-ground.9">A field is placed on the ground that lasts for 7 seconds. Enemies in the area take 4700 Magical damage per second. 30% of the damage dealt is returned to allies in the area as health.</string>
+
+			<string name="skills.priest.aura-of-purification.4">The Priest activates an aura that slows and lowers the resistance of all nearby enemies by 44%. All allies in the area also take 34% less damage. The aura lasts for 8 seconds.</string>
+			<string name="skills.priest.aura-of-purification.5">The Priest activates an aura that slows and lowers the resistance of all nearby enemies by 48%. All allies in the area also take 38% less damage. The aura lasts for 8 seconds.</string>
+			<string name="skills.priest.aura-of-purification.6">The Priest activates an aura that slows and lowers the resistance of all nearby enemies by 52%. All allies in the area also take 42% less damage. The aura lasts for 8 seconds.</string>
+			<string name="skills.priest.aura-of-purification.7">The Priest activates an aura that slows and lowers the resistance of all nearby enemies by 56%. All allies in the area also take 46% less damage. The aura lasts for 8 seconds.</string>
+			<string name="skills.priest.aura-of-purification.8">The Priest activates an aura that slows and lowers the resistance of all nearby enemies by 60%. All allies in the area also take 50% less damage. The aura lasts for 8 seconds.</string>
+
+			<string name="skills.priest.celestial-orb.3">Three orbs rotate around the Priest that fire small beams of holy light, dealing 30 Magical damage. The orbs will automatically fire at the same target as \caac8ffHoly Light\d.</string>
+			<string name="skills.priest.celestial-orb.4">Three orbs rotate around the Priest that fire small beams of holy light, dealing 90 Magical damage. The orbs will automatically fire at the same target as \caac8ffHoly Light\d.</string>
+			<string name="skills.priest.celestial-orb.5">Three orbs rotate around the Priest that fire small beams of holy light, dealing 225 Magical damage. The orbs will automatically fire at the same target as \caac8ffHoly Light\d.</string>
+			<string name="skills.priest.celestial-orb.6">Three orbs rotate around the Priest that fire small beams of holy light, dealing 563 Magical damage. The orbs will automatically fire at the same target as \caac8ffHoly Light\d.</string>
+			<string name="skills.priest.celestial-orb.7">Three orbs rotate around the Priest that fire small beams of holy light, dealing 1400 Magical damage. The orbs will automatically fire at the same target as \caac8ffHoly Light\d.</string>
+
+			<!-- Ranger -->
+
+			<string name="skills.ranger.bow.7">Fire an arrow that deals 50 Physical damage. Arrows pierce 7 enemies. Movement speed is decreased by 24% while firing your bow.</string>
+			<string name="skills.ranger.bow.8">Fire an arrow that deals 150 Physical damage. Arrows pierce 8 enemies. Movement speed is decreased by 23% while firing your bow.</string>
+			<string name="skills.ranger.bow.9">Fire an arrow that deals 375 Physical damage. Arrows pierce 9 enemies. Movement speed is decreased by 22% while firing your bow.</string>
+			<string name="skills.ranger.bow.10">Fire an arrow that deals 937 Physical damage. Arrows pierce 10 enemies. Movement speed is decreased by 21% while firing your bow.</string>
+			<string name="skills.ranger.bow.11">Fire an arrow that deals 2350 Physical damage. Arrows pierce 10 enemies. Movement speed is decreased by 20% while firing your bow.</string>
+
+			<string name="skills.ranger.flurry-of-arrows.7">The Ranger spins around and fires 72 arrows of your current level of \caac8ffBow Shot\d.</string>
+			<string name="skills.ranger.flurry-of-arrows.8">The Ranger spins around and fires 80 arrows of your current level of \caac8ffBow Shot\d.</string>
+			<string name="skills.ranger.flurry-of-arrows.9">The Ranger spins around and fires 88 arrows of your current level of \caac8ffBow Shot\d.</string>
+			<string name="skills.ranger.flurry-of-arrows.10">The Ranger spins around and fires 96 arrows of your current level of \caac8ffBow Shot\d.</string>
+			<string name="skills.ranger.flurry-of-arrows.11">The Ranger spins around and fires 104 arrows of your current level of \caac8ffBow Shot\d.</string>
+
+			<string name="skills.ranger.on-the-prowl.6">When casting a skill the Ranger receives a buff that lasts for 4.6 seconds. The buff increases movement speed by 30% and grants 30% evasion against all incoming damage.</string>
+			<string name="skills.ranger.on-the-prowl.7">When casting a skill the Ranger receives a buff that lasts for 4.7 seconds. The buff increases movement speed by 35% and grants 35% evasion against all incoming damage.</string>
+			<string name="skills.ranger.on-the-prowl.8">When casting a skill the Ranger receives a buff that lasts for 4.8 seconds. The buff increases movement speed by 40% and grants 40% evasion against all incoming damage.</string>
+			<string name="skills.ranger.on-the-prowl.9">When casting a skill the Ranger receives a buff that lasts for 4.9 seconds. The buff increases movement speed by 45% and grants 45% evasion against all incoming damage.</string>
+			<string name="skills.ranger.on-the-prowl.10">When casting a skill the Ranger receives a buff that lasts for 5 seconds. The buff increases movement speed by 50% and grants 50% evasion against all incoming damage.</string>
+
+			<string name="skills.ranger.deadly-aim.5">\caac8ffBow Shot\d has a 15% chance to crit and apply Mark to enemy for 2.6 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
+			<string name="skills.ranger.deadly-aim.6">\caac8ffBow Shot\d has a 17.5% chance to crit and apply Mark to enemy for 2.7 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
+			<string name="skills.ranger.deadly-aim.7">\caac8ffBow Shot\d has a 20% chance to crit and apply Mark to enemy for 2.8 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
+			<string name="skills.ranger.deadly-aim.8">\caac8ffBow Shot\d has a 22.5% chance to crit and apply Mark to enemy for 2.9 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
+			<string name="skills.ranger.deadly-aim.9">\caac8ffBow Shot\d has a 25% chance to crit and apply Mark to enemy for 3 seconds. Marked targets have a 5% chance to receive critical damage from all sources of damage.</string>
+
+			<string name="skills.ranger.grasping-roots.5">Immobilize all enemies around the Ranger for 5.2 seconds. Enemies caught by the roots have their Armor reduced by 30%.</string>
+			<string name="skills.ranger.grasping-roots.6">Immobilize all enemies around the Ranger for 5.4 seconds. Enemies caught by the roots have their Armor reduced by 35%.</string>
+			<string name="skills.ranger.grasping-roots.7">Immobilize all enemies around the Ranger for 5.6 seconds. Enemies caught by the roots have their Armor reduced by 40%.</string>
+			<string name="skills.ranger.grasping-roots.8">Immobilize all enemies around the Ranger for 5.8 seconds. Enemies caught by the roots have their Armor reduced by 45%.</string>
+			<string name="skills.ranger.grasping-roots.9">Immobilize all enemies around the Ranger for 6 seconds. Enemies caught by the roots have their Armor reduced by 50%.</string>
+
+			<string name="skills.ranger.powershot.4">Charges an arrow that deals up to 750 Magical damage. The arrow ignores 55% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
+			<string name="skills.ranger.powershot.5">Charges an arrow that deals up to 2250 Magical damage. The arrow ignores 60% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
+			<string name="skills.ranger.powershot.6">Charges an arrow that deals up to 5625 Magical damage. The arrow ignores 65% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
+			<string name="skills.ranger.powershot.7">Charges an arrow that deals up to 14060 Magical damage. The arrow ignores 70% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
+			<string name="skills.ranger.powershot.8">Charges an arrow that deals up to 35150 Magical damage. The arrow ignores 75% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
+
+			<string name="skills.ranger.twinned-arrows.3">Arrows from \caac8ffBow Shot\d have a 42% chance of splitting and seeking a new target.</string>
+			<string name="skills.ranger.twinned-arrows.4">Arrows from \caac8ffBow Shot\d have a 44% chance of splitting and seeking a new target.</string>
+			<string name="skills.ranger.twinned-arrows.5">Arrows from \caac8ffBow Shot\d have a 46% chance of splitting and seeking a new target.</string>
+			<string name="skills.ranger.twinned-arrows.6">Arrows from \caac8ffBow Shot\d have a 48% chance of splitting and seeking a new target.</string>
+			<string name="skills.ranger.twinned-arrows.7">Arrows from \caac8ffBow Shot\d have a 50% chance of splitting and seeking a new target.</string>
+
+			<!-- Sorcerer -->
+			
+			<string name="skills.sorcerer.frost-shard.7">Fire a frost shard that deal 40 Hybrid damage. Frost shards ricochet up to 6 times. Damage is increased by 10% per bounce.</string>
+			<string name="skills.sorcerer.frost-shard.8">Fire a frost shard that deal 120 Hybrid damage. Frost shards ricochet up to 6 times. Damage is increased by 10% per bounce.</string>
+			<string name="skills.sorcerer.frost-shard.9">Fire a frost shard that deal 300 Hybrid damage. Frost shards ricochet up to 6 times. Damage is increased by 10% per bounce.</string>
+			<string name="skills.sorcerer.frost-shard.10">Fire a frost shard that deal 750 Hybrid damage. Frost shards ricochet up to 6 times. Damage is increased by 10% per bounce.</string>
+			<string name="skills.sorcerer.frost-shard.11">Fire a frost shard that deal 1900 Hybrid damage. Frost shards ricochet up to 6 times. Damage is increased by 10% per bounce.</string>
+
+			<string name="skills.sorcerer.comet.7">Drops a comet that deals 600 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2.25 seconds.</string>
+			<string name="skills.sorcerer.comet.8">Drops a comet that deals 1800 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2.25 seconds.</string>
+			<string name="skills.sorcerer.comet.9">Drops a comet that deals 4500 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2.25 seconds.</string>
+			<string name="skills.sorcerer.comet.10">Drops a comet that deals 11250 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2.25 seconds.</string>
+			<string name="skills.sorcerer.comet.11">Drops a comet that deals 28000 Hybrid damage split among all enemies in the area of impact. Enemies hit are frozen in place for 2.5 seconds.</string>
+
+			<string name="skills.sorcerer.biting-chill.6">Sorcerer's skills slows enemies by 63% for 4.2 seconds. They also have a 8% chance to freeze enemies in place for 2.25 seconds.</string>
+			<string name="skills.sorcerer.biting-chill.7">Sorcerer's skills slows enemies by 66% for 4.4 seconds. They also have a 8.5% chance to freeze enemies in place for 2.25 seconds.</string>
+			<string name="skills.sorcerer.biting-chill.8">Sorcerer's skills slows enemies by 69% for 4.6 seconds. They also have a 9% chance to freeze enemies in place for 2.25 seconds.</string>
+			<string name="skills.sorcerer.biting-chill.9">Sorcerer's skills slows enemies by 72% for 4.8 seconds. They also have a 9.5% chance to freeze enemies in place for 2.25 seconds.</string>
+			<string name="skills.sorcerer.biting-chill.10">Sorcerer's skills slows enemies by 75% for 5 seconds. They also have a 10% chance to freeze enemies in place for 2.5 seconds.</string>
+
+			<string name="skills.sorcerer.ice-barrier.5">When casting a skill a protective barrier is conjured that lasts for 3 seconds. Each barrier reduces the damage taken by one damage instance by 55%. Stacks up to 8 times.</string>
+			<string name="skills.sorcerer.ice-barrier.6">When casting a skill a protective barrier is conjured that lasts for 3.5 seconds. Each barrier reduces the damage taken by one damage instance by 60%. Stacks up to 9 times.</string>
+			<string name="skills.sorcerer.ice-barrier.7">When casting a skill a protective barrier is conjured that lasts for 4 seconds. Each barrier reduces the damage taken by one damage instance by 65%. Stacks up to 9 times.</string>
+			<string name="skills.sorcerer.ice-barrier.8">When casting a skill a protective barrier is conjured that lasts for 4.5 seconds. Each barrier reduces the damage taken by one damage instance by 70%. Stacks up to 10 times.</string>
+			<string name="skills.sorcerer.ice-barrier.9">When casting a skill a protective barrier is conjured that lasts for 5 seconds. Each barrier reduces the damage taken by one damage instance by 75%. Stacks up to 10 times.</string>
+
+			<string name="skills.sorcerer.frost-nova.5">Unleash 19 frost balls in all directions around the Sorcerer dealing 60 Hybrid damage.</string>
+			<string name="skills.sorcerer.frost-nova.6">Unleash 19 frost balls in all directions around the Sorcerer dealing 180 Hybrid damage.</string>
+			<string name="skills.sorcerer.frost-nova.7">Unleash 19 frost balls in all directions around the Sorcerer dealing 450 Hybrid damage.</string>
+			<string name="skills.sorcerer.frost-nova.8">Unleash 19 frost balls in all directions around the Sorcerer dealing 1150 Hybrid damage.</string>
+			<string name="skills.sorcerer.frost-nova.9">Unleash 21 frost balls in all directions around the Sorcerer dealing 3000 Hybrid damage.</string>
+
+			<string name="skills.sorcerer.orb-of-winter.4">Spawns a slow moving ice orb that moves forward for 6.5 seconds unleashing small ice shards in all directions that deals 50 Hybrid damage.</string>
+			<string name="skills.sorcerer.orb-of-winter.5">Spawns a slow moving ice orb that moves forward for 6.5 seconds unleashing small ice shards in all directions that deals 150 Hybrid damage.</string>
+			<string name="skills.sorcerer.orb-of-winter.6">Spawns a slow moving ice orb that moves forward for 6.5 seconds unleashing small ice shards in all directions that deals 370 Hybrid damage.</string>
+			<string name="skills.sorcerer.orb-of-winter.7">Spawns a slow moving ice orb that moves forward for 6.5 seconds unleashing small ice shards in all directions that deals 950 Hybrid damage.</string>
+			<string name="skills.sorcerer.orb-of-winter.8">Spawns a slow moving ice orb that moves forward for 7 seconds unleashing small ice shards in all directions that deals 2400 Hybrid damage.</string>
+
+			<string name="skills.sorcerer.shatter.3">Enemies killed by the Sorcerer while frozen will explode dealing 200 Hybrid damage to nearby enemies.</string>
+			<string name="skills.sorcerer.shatter.4">Enemies killed by the Sorcerer while frozen will explode dealing 600 Hybrid damage to nearby enemies.</string>
+			<string name="skills.sorcerer.shatter.5">Enemies killed by the Sorcerer while frozen will explode dealing 1500 Hybrid damage to nearby enemies.</string>
+			<string name="skills.sorcerer.shatter.6">Enemies killed by the Sorcerer while frozen will explode dealing 3750 Hybrid damage to nearby enemies.</string>
+			<string name="skills.sorcerer.shatter.7">Enemies killed by the Sorcerer while frozen will explode dealing 9400 Hybrid damage to nearby enemies.</string>
+				
+			<!-- Thief -->
+			
+			<string name="skills.thief.twin-daggers.7">Two quick melee attacks that deal 40 Physical damage each. Your movement speed is decreased by 8% while attacking.</string>
+			<string name="skills.thief.twin-daggers.8">Two quick melee attacks that deal 120 Physical damage each. Your movement speed is decreased by 6% while attacking.</string>
+			<string name="skills.thief.twin-daggers.9">Two quick melee attacks that deal 300 Physical damage each. Your movement speed is decreased by 4% while attacking.</string>
+			<string name="skills.thief.twin-daggers.10">Two quick melee attacks that deal 750 Physical damage each. Your movement speed is decreased by 2% while attacking.</string>
+			<string name="skills.thief.twin-daggers.11">Two quick melee attacks that deal 950 Physical damage each. Your movement speed is not decreased while attacking.</string>
+
+			<string name="skills.thief.throwing-knives.7">Throw 11 knives in a 75-degree arc. Each knife deals 80 Physical damage and can pierce up to 11 enemies.</string>
+			<string name="skills.thief.throwing-knives.8">Throw 12 knives in a 80-degree arc. Each knife deals 240 Physical damage and can pierce up to 12 enemies.</string>
+			<string name="skills.thief.throwing-knives.9">Throw 13 knives in a 85-degree arc. Each knife deals 600 Physical damage and can pierce up to 13 enemies.</string>
+			<string name="skills.thief.throwing-knives.10">Throw 14 knives in a 90-degree arc. Each knife deals 1500 Physical damage and can pierce up to 14 enemies.</string>
+			<string name="skills.thief.throwing-knives.11">Throw 15 knives in a 95-degree arc. Each knife deals 3750 Physical damage and can pierce up to 15 enemies.</string>
+
+			<string name="skills.thief.sidestep.6">Grants 30% evasion against all incoming damage. Also guarantees evasion against one damage instance that is recharged over 2.8 seconds.</string>
+			<string name="skills.thief.sidestep.7">Grants 35% evasion against all incoming damage. Also guarantees evasion against one damage instance that is recharged over 2.6 seconds.</string>
+			<string name="skills.thief.sidestep.8">Grants 40% evasion against all incoming damage. Also guarantees evasion against one damage instance that is recharged over 2.4 seconds.</string>
+			<string name="skills.thief.sidestep.9">Grants 45% evasion against all incoming damage. Also guarantees evasion against one damage instance that is recharged over 2.2 seconds.</string>
+			<string name="skills.thief.sidestep.10">Grants 50% evasion against all incoming damage. Also guarantees evasion against one damage instance that is recharged over 2 seconds.</string>
+
+			<string name="skills.thief.slice-and-dice.5">Each hit with \caac8ffTwin Daggers\d grants a 2.1% attack speed bonus that stacks up to 35 times. All stacks are lost after 3 seconds of not attacking.</string>
+			<string name="skills.thief.slice-and-dice.6">Each hit with \caac8ffTwin Daggers\d grants a 2.2% attack speed bonus that stacks up to 38 times. All stacks are lost after 3.5 seconds of not attacking.</string>
+			<string name="skills.thief.slice-and-dice.7">Each hit with \caac8ffTwin Daggers\d grants a 2.3% attack speed bonus that stacks up to 41 times. All stacks are lost after 4 seconds of not attacking.</string>
+			<string name="skills.thief.slice-and-dice.8">Each hit with \caac8ffTwin Daggers\d grants a 2.4% attack speed bonus that stacks up to 44 times. All stacks are lost after 4.5 seconds of not attacking.</string>
+			<string name="skills.thief.slice-and-dice.9">Each hit with \caac8ffTwin Daggers\d grants a 2.5% attack speed bonus that stacks up to 50 times. All stacks are lost after 5 seconds of not attacking.</string>
+
+			<string name="skills.thief.grappling-hook.5">Fires a grappling hook and travels to the point of impact, stunning enemies for 1.5 seconds. The Thief has 100% evasion while traveling with the grappling hook.</string>
+			<string name="skills.thief.grappling-hook.6">Fires a grappling hook and travels to the point of impact, stunning enemies for 1.75 seconds. The Thief has 100% evasion while traveling with the grappling hook. Increased range.</string>
+			<string name="skills.thief.grappling-hook.7">Fires a grappling hook and travels to the point of impact, stunning enemies for 2 seconds. The Thief has 100% evasion while traveling with the grappling hook. Increased range.</string>
+			<string name="skills.thief.grappling-hook.8">Fires a grappling hook and travels to the point of impact, stunning enemies for 2.25 seconds. The Thief has 100% evasion while traveling with the grappling hook. Increased range.</string>
+			<string name="skills.thief.grappling-hook.9">Fires a grappling hook and travels to the point of impact, stunning enemies for 2.5 seconds. The Thief has 100% evasion while traveling with the grappling hook. Increased range.</string>
+
+			<string name="skills.thief.smoke-bomb.4">The Thief throws a smoke bomb that stuns all enemies in a large area for 4.2 seconds. The bomb also provides a smoke cloud that grants all allies 34% evasion in the area.</string>
+			<string name="skills.thief.smoke-bomb.5">The Thief throws a smoke bomb that stuns all enemies in a large area for 4.4 seconds. The bomb also provides a smoke cloud that grants all allies 38% evasion in the area.</string>
+			<string name="skills.thief.smoke-bomb.6">The Thief throws a smoke bomb that stuns all enemies in a large area for 4.6 seconds. The bomb also provides a smoke cloud that grants all allies 42% evasion in the area.</string>
+			<string name="skills.thief.smoke-bomb.7">The Thief throws a smoke bomb that stuns all enemies in a large area for 4.8 seconds. The bomb also provides a smoke cloud that grants all allies 46% evasion in the area.</string>
+			<string name="skills.thief.smoke-bomb.8">The Thief throws a smoke bomb that stuns all enemies in a large area for 5 seconds. The bomb also provides a smoke cloud that grants all allies 50% evasion in the area.</string>
+
+			<string name="skills.thief.vicious-cuts.3">Each hit with \caac8ffTwin Daggers\d have a 10.5% chance of lowering the targets current health by 6%.</string>
+			<string name="skills.thief.vicious-cuts.4">Each hit with \caac8ffTwin Daggers\d have a 11% chance of lowering the targets current health by 7%.</string>
+			<string name="skills.thief.vicious-cuts.5">Each hit with \caac8ffTwin Daggers\d have a 11.5% chance of lowering the targets current health by 8%.</string>
+			<string name="skills.thief.vicious-cuts.6">Each hit with \caac8ffTwin Daggers\d have a 12% chance of lowering the targets current health by 9%.</string>
+			<string name="skills.thief.vicious-cuts.7">Each hit with \caac8ffTwin Daggers\d have a 12.5% chance of lowering the targets current health by 10%.</string>
+
+			<!-- Warlock -->
+
+			<string name="skills.warlock.soul-dagger.7">Short ranged attack that applies Soul Consumption which deals 50 Magical damage per second for 5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
+			<string name="skills.warlock.soul-dagger.8">Short ranged attack that applies Soul Consumption which deals 150 Magical damage per second for 5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
+			<string name="skills.warlock.soul-dagger.9">Short ranged attack that applies Soul Consumption which deals 375 Magical damage per second for 5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
+			<string name="skills.warlock.soul-dagger.10">Short ranged attack that applies Soul Consumption which deals 938 Magical damage per second for 5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
+			<string name="skills.warlock.soul-dagger.11">Short ranged attack that applies Soul Consumption which deals 2350 Magical damage per second for 5 seconds. The Warlock gains 5% health and 10% mana based on the damage dealt by Soul Consumption.</string>
+
+			<string name="skills.warlock.lightning-bolt.7">Fires a bolt of lightning that strikes 11 targets upon impact, dealing 88 Magical damage to each target.</string>
+			<string name="skills.warlock.lightning-bolt.8">Fires a bolt of lightning that strikes 12 targets upon impact, dealing 264 Magical damage to each target.</string>
+			<string name="skills.warlock.lightning-bolt.9">Fires a bolt of lightning that strikes 13 targets upon impact, dealing 660 Magical damage to each target.</string>
+			<string name="skills.warlock.lightning-bolt.10">Fires a bolt of lightning that strikes 14 targets upon impact, dealing 1650 Magical damage to each target.</string>
+			<string name="skills.warlock.lightning-bolt.11">Fires a bolt of lightning that strikes 15 targets upon impact, dealing 4125 Magical damage to each target.</string>
+
+			<string name="skills.warlock.extended-domain.6">Extends the effective range of all Warlock's skills by 80%.</string>
+			<string name="skills.warlock.extended-domain.7">Extends the effective range of all Warlock's skills by 85%.</string>
+			<string name="skills.warlock.extended-domain.8">Extends the effective range of all Warlock's skills by 90%.</string>
+			<string name="skills.warlock.extended-domain.9">Extends the effective range of all Warlock's skills by 95%.</string>
+			<string name="skills.warlock.extended-domain.10">Extends the effective range of all Warlock's skills by 100%.</string>
+			
+			<string name="skills.warlock.soul-cleaver.5">Enemies affected by Soul Consumption will spread 55% of the damage taken to nearby enemies.</string>
+			<string name="skills.warlock.soul-cleaver.6">Enemies affected by Soul Consumption will spread 60% of the damage taken to nearby enemies.</string>
+			<string name="skills.warlock.soul-cleaver.7">Enemies affected by Soul Consumption will spread 65% of the damage taken to nearby enemies.</string>
+			<string name="skills.warlock.soul-cleaver.8">Enemies affected by Soul Consumption will spread 70% of the damage taken to nearby enemies.</string>
+			<string name="skills.warlock.soul-cleaver.9">Enemies affected by Soul Consumption will spread 75% of the damage taken to nearby enemies.</string>
+
+			<string name="skills.warlock.summon-gargoyle.5">Summon a gargoyle that fires bolts of lightning dealing 80 Magical damage. The gargoyle lasts for 5 seconds. Can be linked with nearby gargoyles to create a static link that deals 50% damage and stuns enemies. Max amount 5.</string>
+			<string name="skills.warlock.summon-gargoyle.6">Summon a gargoyle that fires bolts of lightning dealing 240 Magical damage. The gargoyle lasts for 5 seconds. Can be linked with nearby gargoyles to create a static link that deals 50% damage and stuns enemies. Max amount 5.</string>
+			<string name="skills.warlock.summon-gargoyle.7">Summon a gargoyle that fires bolts of lightning dealing 600 Magical damage. The gargoyle lasts for 5 seconds. Can be linked with nearby gargoyles to create a static link that deals 50% damage and stuns enemies. Max amount 5.</string>
+			<string name="skills.warlock.summon-gargoyle.8">Summon a gargoyle that fires bolts of lightning dealing 1500 Magical damage. The gargoyle lasts for 5 seconds. Can be linked with nearby gargoyles to create a static link that deals 50% damage and stuns enemies. Max amount 5.</string>
+			<string name="skills.warlock.summon-gargoyle.9">Summon a gargoyle that fires bolts of lightning dealing 3750 Magical damage. The gargoyle lasts for 5 seconds. Can be linked with nearby gargoyles to create a static link that deals 50% damage and stuns enemies. Max amount 5.</string>
+
+			<string name="skills.warlock.eye-of-the-storm.4">Generates an electrical storm that fires bolts of lightning at nearby enemies dealing 100 Magical damage. The storm lasts for 12 seconds. Can be linked with nearby gargoyles.</string>
+			<string name="skills.warlock.eye-of-the-storm.5">Generates an electrical storm that fires bolts of lightning at nearby enemies dealing 300 Magical damage. The storm lasts for 12 seconds. Can be linked with nearby gargoyles.</string>
+			<string name="skills.warlock.eye-of-the-storm.6">Generates an electrical storm that fires bolts of lightning at nearby enemies dealing 750 Magical damage. The storm lasts for 12 seconds. Can be linked with nearby gargoyles.</string>
+			<string name="skills.warlock.eye-of-the-storm.7">Generates an electrical storm that fires bolts of lightning at nearby enemies dealing 1875 Magical damage. The storm lasts for 12 seconds. Can be linked with nearby gargoyles.</string>
+			<string name="skills.warlock.eye-of-the-storm.8">Generates an electrical storm that fires bolts of lightning at nearby enemies dealing 4700 Magical damage. The storm lasts for 12 seconds. Can be linked with nearby gargoyles.</string>
+
+			<string name="skills.warlock.stormlash.3">All bolts of lightning have a 55% chance to trigger a new bolt of lightning dealing 55% damage.</string>
+			<string name="skills.warlock.stormlash.4">All bolts of lightning have a 60% chance to trigger a new bolt of lightning dealing 60% damage.</string>
+			<string name="skills.warlock.stormlash.5">All bolts of lightning have a 65% chance to trigger a new bolt of lightning dealing 65% damage.</string>
+			<string name="skills.warlock.stormlash.6">All bolts of lightning have a 70% chance to trigger a new bolt of lightning dealing 70% damage.</string>
+			<string name="skills.warlock.stormlash.7">All bolts of lightning have a 75% chance to trigger a new bolt of lightning dealing 75% damage.</string>
+
+			<!-- Wizard -->
+			<string name="skills.wizard.fireball.7">Launch a fireball that deals 50 Magical damage. Longer range.</string>
+			<string name="skills.wizard.fireball.8">Launch a fireball that deals 150 Magical damage. Longer range.</string>
+			<string name="skills.wizard.fireball.9">Launch a fireball that deals 375 Magical damage. Longer range.</string>
+			<string name="skills.wizard.fireball.10">Launch a fireball that deals 938 Magical damage. Longer range.</string>
+			<string name="skills.wizard.fireball.11">Launch a fireball that deals 2350 Magical damage. Longer range.</string>
+
+			<string name="skills.wizard.fire-breath.7">The Wizard breathes fire in a forward cone dealing 33 Magical damage per instance.</string>
+			<string name="skills.wizard.fire-breath.8">The Wizard breathes fire in a forward cone dealing 99 Magical damage per instance.</string>
+			<string name="skills.wizard.fire-breath.9">The Wizard breathes fire in a forward cone dealing 250 Magical damage per instance.</string>
+			<string name="skills.wizard.fire-breath.10">The Wizard breathes fire in a forward cone dealing 620 Magical damage per instance.</string>
+			<string name="skills.wizard.fire-breath.11">The Wizard breathes fire in a forward cone dealing 1550 Magical damage per instance.</string>
+
+			<string name="skills.wizard.combustion.6">All Wizard skills inflict a burning over time dealing 50 Magical damage per second for 4.2 seconds.</string>
+			<string name="skills.wizard.combustion.7">All Wizard skills inflict a burning over time dealing 150 Magical damage per second for 4.4 seconds.</string>
+			<string name="skills.wizard.combustion.8">All Wizard skills inflict a burning over time dealing 376 Magical damage per second for 4.6 seconds.</string>
+			<string name="skills.wizard.combustion.9">All Wizard skills inflict a burning over time dealing 940 Magical damage per second for 4.8 seconds.</string>
+			<string name="skills.wizard.combustion.10">All Wizard skills inflict a burning over time dealing 2350 Magical damage per second for 5 seconds.</string>
+
+			<string name="skills.wizard.flame-shield.5">Protects the Wizard by lowering the damage of one damage instance by 55%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 4.5 seconds.</string>
+			<string name="skills.wizard.flame-shield.6">Protects the Wizard by lowering the damage of one damage instance by 60%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 4 seconds.</string>
+			<string name="skills.wizard.flame-shield.7">Protects the Wizard by lowering the damage of one damage instance by 65%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 3.5 seconds.</string>
+			<string name="skills.wizard.flame-shield.8">Protects the Wizard by lowering the damage of one damage instance by 70%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 3 seconds.</string>
+			<string name="skills.wizard.flame-shield.9">Protects the Wizard by lowering the damage of one damage instance by 75%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 2.5 seconds.</string>
+
+			<string name="skills.wizard.blast-wave.5">Unleash a blast wave around the Wizard that deals 75 Magical damage. Enemies hit by the wave are confused and slowed by 63% for 4.2 seconds. The blast wave also destroys most projectiles.</string>
+			<string name="skills.wizard.blast-wave.6">Unleash a blast wave around the Wizard that deals 225 Magical damage. Enemies hit by the wave are confused and slowed by 66% for 4.4 seconds. The blast wave also destroys most projectiles.</string>
+			<string name="skills.wizard.blast-wave.7">Unleash a blast wave around the Wizard that deals 562 Magical damage. Enemies hit by the wave are confused and slowed by 69% for 4.6 seconds. The blast wave also destroys most projectiles.</string>
+			<string name="skills.wizard.blast-wave.8">Unleash a blast wave around the Wizard that deals 1405 Magical damage. Enemies hit by the wave are confused and slowed by 72% for 4.8 seconds. The blast wave also destroys most projectiles.</string>
+			<string name="skills.wizard.blast-wave.9">Unleash a blast wave around the Wizard that deals 3525 Magical damage. Enemies hit by the wave are confused and slowed by 75% for 5 seconds. The blast wave also destroys most projectiles.</string>
+
+			<string name="skills.wizard.meteor-shower.4">Evokes 7 meteors to strike the ground around the Wizard dealing 800 Hybrid damage.</string>
+			<string name="skills.wizard.meteor-shower.5">Evokes 7 meteors to strike the ground around the Wizard dealing 2400 Hybrid damage.</string>
+			<string name="skills.wizard.meteor-shower.6">Evokes 7 meteors to strike the ground around the Wizard dealing 6000 Hybrid damage.</string>
+			<string name="skills.wizard.meteor-shower.7">Evokes 7 meteors to strike the ground around the Wizard dealing 15000 Hybrid damage.</string>
+			<string name="skills.wizard.meteor-shower.8">Evokes 7 meteors to strike the ground around the Wizard dealing 37500 Hybrid damage.</string>
+
+			<string name="skills.wizard.scorched-earth.3">All Wizards skills leave a burning danger area that deal 40 Magical damage per second. Last for 2.6 seconds.</string>
+			<string name="skills.wizard.scorched-earth.4">All Wizards skills leave a burning danger area that deal 120 Magical damage per second. Last for 3.2 seconds.</string>
+			<string name="skills.wizard.scorched-earth.5">All Wizards skills leave a burning danger area that deal 300 Magical damage per second. Last for 3.8 seconds.</string>
+			<string name="skills.wizard.scorched-earth.6">All Wizards skills leave a burning danger area that deal 750 Magical damage per second. Last for 4.4 seconds.</string>
+			<string name="skills.wizard.scorched-earth.7">All Wizards skills leave a burning danger area that deal 1900 Magical damage per second. Last for 5 seconds.</string>
+
+
+	<!-- Gladiator -->
+			<!-- Trident -->
+			<string name="skills.gladiator.trident.7">Melee attack that deals 66 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 30 stacks.</string>
+			<string name="skills.gladiator.trident.8">Melee attack that deals 165 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 30 stacks.</string>
+			<string name="skills.gladiator.trident.9">Melee attack that deals 410 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 50 stacks.</string>
+			<string name="skills.gladiator.trident.10">Melee attack that deals 1100 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 50 stacks.</string>
+			<string name="skills.gladiator.trident.11">Melee attack that deals 2600 Physical damage. Attack without cooldown by expending stacks of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 50 stacks.</string>
+
+			<!-- Net -->
+			<string name="skills.gladiator.net.7">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 120% more damage when netted.</string>
+			<string name="skills.gladiator.net.8">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 140% more damage when netted.</string>
+			<string name="skills.gladiator.net.9">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 160% more damage when netted.</string>
+			<string name="skills.gladiator.net.10">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 180% more damage when netted.</string>
+			<string name="skills.gladiator.net.11">Throw a net that disarms and slows enemies by 80% for 3 seconds. Charging the net increases the range thrown. Enemies take 200% more damage when netted.</string>
+
+			<!-- Gladius -->
+			<string name="skills.gladiator.gladius.5">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 384 Magical damage per second.</string>
+			<string name="skills.gladiator.gladius.6">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 960 Magical damage per second.</string>
+			<string name="skills.gladiator.gladius.7">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 2400 Magical damage per second.</string>
+			<string name="skills.gladiator.gladius.8">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 6000 Magical damage per second.</string>
+			<string name="skills.gladiator.gladius.9">Throws a gladius in a forward direction that starts spinning in place for 3 seconds on impact. Deals 15000 Magical damage per second.</string>
+
+			<!-- Pit Fighters -->
+			<string name="skills.gladiator.pit-fighters.4">Call upon a group of pit fighters to fight at your side for 20 seconds. The pit fighters have 1800 Health, 90 Armor and 90 Resistance. They attack with shortswords dealing 150 Physical damage.</string>
+			<string name="skills.gladiator.pit-fighters.5">Call upon a group of pit fighters to fight at your side for 25 seconds. The pit fighters have 4500 Health, 225 Armor and 225 Resistance. They attack with shortswords dealing 375 Physical damage.</string>
+			<string name="skills.gladiator.pit-fighters.6">Call upon a group of pit fighters to fight at your side for 30 seconds. The pit fighters have 11250 Health, 400 Armor and 400 Resistance. They attack with shortswords dealing 900 Physical damage.</string>
+			<string name="skills.gladiator.pit-fighters.7">Call upon a group of pit fighters to fight at your side for 35 seconds. The pit fighters have 28125 Health, 1000 Armor and 1000 Resistance. They attack with shortswords dealing 2250 Physical damage.</string>
+			<string name="skills.gladiator.pit-fighters.8">Call upon a group of pit fighters to fight at your side for 40 seconds. The pit fighters have 50001 Health, 1600 Armor and 1600 Resistance. They attack with shortswords dealing 5625 Physical damage.</string>
+
+			<!-- Planned Attack -->
+			<string name="skills.gladiator.planned-attack.6">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 0.75 seconds. Maximum 18 stacks.</string>
+			<string name="skills.gladiator.planned-attack.7">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 0.5 seconds. Maximum 24 stacks.</string>
+			<string name="skills.gladiator.planned-attack.8">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 0.4 seconds. Maximum 30 stacks.</string>
+			<string name="skills.gladiator.planned-attack.9">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 0.3 second. Maximum 36 stacks.</string>
+			<string name="skills.gladiator.planned-attack.10">Guaranteed critical hit when expending a stack of \caac8ffTrident\d. Stacks recharge over 0.2 seconds. Maximum 42 stacks.</string>
+
+			<!-- Riposte -->
+			<string name="skills.gladiator.riposte.5">Blocks 100% of one damage instance within 0.2 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
+			<string name="skills.gladiator.riposte.6">Blocks 100% of one damage instance within 0.5 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
+			<string name="skills.gladiator.riposte.7">Blocks 100% of one damage instance within 1 second after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
+			<string name="skills.gladiator.riposte.8">Blocks 100% of one damage instance within 1.5 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
+			<string name="skills.gladiator.riposte.9">Blocks 100% of one damage instance within 2 seconds after attacking with \caac8ffTrident\d. Blocking with \caac8ffRiposte\d replenishes a stack of \caac8ffTrident\d.</string>
+
+			<!-- Strength in Numbers a.k.a. "Arena_Mastery" -->
+			<string name="skills.gladiator.strength-in-numbers.3">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d by 3.</string>
+			<string name="skills.gladiator.strength-in-numbers.4">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d by 4.</string>
+			<string name="skills.gladiator.strength-in-numbers.5">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d by 5.</string>
+			<string name="skills.gladiator.strength-in-numbers.6">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d by 6.</string>
+			<string name="skills.gladiator.strength-in-numbers.7">Increases the amount of \caac8ffPit Fighters\d and \caac8ffSpinning Gladius\d by 7.</string>
+	
+		<!-- Witch Hunter -->
+			<!-- Repeater Crossbow -->
+			<string name="skills.witch_hunter.repeater-crossbow.7">Fires 4 bolts in quick succession. Each bolt deal 50 Physical damage that ignores 35% Armor. Bolts pierce enemies but lose 50% damage with each enemy pierced.</string>
+			<string name="skills.witch_hunter.repeater-crossbow.8">Fires 6 bolts in quick succession. Each bolt deal 150 Physical damage that ignores 40% Armor. Bolts pierce enemies but lose 40% damage with each enemy pierced.</string>
+			<string name="skills.witch_hunter.repeater-crossbow.9">Fires 6 bolts in quick succession. Each bolt deal 375 Physical damage that ignores 45% Armor. Bolts pierce enemies but lose 40% damage with each enemy pierced.</string>
+			<string name="skills.witch_hunter.repeater-crossbow.10">Fires 8 bolts in very quick succession. Each bolt deal 938 Physical damage that ignores 50% Armor. Bolts pierce enemies but lose 30% damage with each enemy pierced.</string>
+			<string name="skills.witch_hunter.repeater-crossbow.11">Fires 8 bolts in very quick succession. Each bolt deal 2345 Physical damage that ignores 55% Armor. Bolts pierce enemies but lose 30% damage with each enemy pierced.</string>
+
+			<!-- Flaming Hounds -->
+			<string name="skills.witch_hunter.flaming-hound.7">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing 88 Magical damage which is increased by 50% with each bounce.</string>
+			<string name="skills.witch_hunter.flaming-hound.8">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing 264 Magical damage which is increased by 50% with each bounce.</string>
+			<string name="skills.witch_hunter.flaming-hound.9">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing 660 Magical damage which is increased by 50% with each bounce.</string>
+			<string name="skills.witch_hunter.flaming-hound.10">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing 1650 Magical damage which is increased by 50% with each bounce.</string>
+			<string name="skills.witch_hunter.flaming-hound.11">Unleash a Flaming Hound that bounces in a forward direction. Explodes when bouncing dealing 4125 Magical damage which is increased by 50% with each bounce.</string>
+
+			<!-- Branding Ward -->
+			<string name="skills.witch_hunter.brand.5">Places a ward at the ground that triggers when enemies get close. Enemies hit by the ward take 250 Magical damage and are branded for 10 seconds. Branded enemies take 125% more damage. Max 15 wards placed at a time.</string>
+			<string name="skills.witch_hunter.brand.6">Places a ward at the ground that triggers when enemies get close. Enemies hit by the ward take 750 Magical damage and are branded for 15 seconds. Branded enemies take 150% more damage. Max 15 wards placed at a time.</string>
+			<string name="skills.witch_hunter.brand.7">Places a ward at the ground that triggers when enemies get close. Enemies hit by the ward take 1875 Magical damage and are branded for 20 seconds. Branded enemies take 175% more damage. Max 20 wards placed at a time.</string>
+			<string name="skills.witch_hunter.brand.8">Places a ward at the ground that triggers when enemies get close. Enemies hit by the ward take 4688 Magical damage and are branded for 25 seconds. Branded enemies take 200% more damage. Max 20 wards placed at a time.</string>
+			<string name="skills.witch_hunter.brand.9">Places a ward at the ground that triggers when enemies get close. Enemies hit by the ward take 11720 Magical damage and are branded for 30 seconds. Branded enemies take 225% more damage. Max 30 wards placed at a time.</string>
+
+			<!-- Witch Pyre -->
+			<string name="skills.witch_hunter.pyre.4">Places a pyre on the ground that lasts for 8 seconds. The pyre has 1750 Health, 75 Armor and Resistance. Enemies that hit the pyre ignite an explosion dealing 300 Magical damage. Enemies close to the pyre also start burning.</string>
+			<string name="skills.witch_hunter.pyre.5">Places a pyre on the ground that lasts for 9 seconds. The pyre has 4000 Health, 225 Armor and Resistance. Enemies that hit the pyre ignite an explosion dealing 750 Magical damage. Enemies close to the pyre also start burning.</string>
+			<string name="skills.witch_hunter.pyre.6">Places a pyre on the ground that lasts for 10 seconds. The pyre has 10000 Health, 500 Armor and Resistance. Enemies that hit the pyre ignite an explosion dealing 1875 Magical damage. Enemies close to the pyre also start burning.</string>
+			<string name="skills.witch_hunter.pyre.7">Places a pyre on the ground that lasts for 11 seconds. The pyre has 25000 Health, 1250 Armor and Resistance. Enemies that hit the pyre ignite an explosion dealing 4680 Magical damage. Enemies close to the pyre also start burning.</string>
+			<string name="skills.witch_hunter.pyre.8">Places a pyre on the ground that lasts for 12 seconds. The pyre has 50001 Health, 2000 Armor and Resistance. Enemies that hit the pyre ignite an explosion dealing 11700 Magical damage. Enemies close to the pyre also start burning.</string>
+			
+			<!-- Fanatic Zeal -->
+			<string name="skills.witch_hunter.fanatic-zeal.6">Generates stacks of \caac8ffFanatic Zeal\d when casting a skill. Grants a critical hit chance for all attacks and skills that increases by 2.75% for each stack. Maximum 9 stacks, each stack lasts 9 seconds.</string>
+			<string name="skills.witch_hunter.fanatic-zeal.7">Generates stacks of \caac8ffFanatic Zeal\d when casting a skill. Grants a critical hit chance for all attacks and skills that increases by 3% for each stack. Maximum 10 stacks, each stack lasts 10 seconds.</string>
+			<string name="skills.witch_hunter.fanatic-zeal.8">Generates stacks of \caac8ffFanatic Zeal\d when casting a skill. Grants a critical hit chance for all attacks and skills that increases by 3.25% for each stack. Maximum 11 stacks, each stack lasts 11 seconds.</string>
+			<string name="skills.witch_hunter.fanatic-zeal.9">Generates stacks of \caac8ffFanatic Zeal\d when casting a skill. Grants a critical hit chance for all attacks and skills that increases by 3.5% for each stack. Maximum 12 stacks, each stack lasts 12 seconds.</string>
+			<string name="skills.witch_hunter.fanatic-zeal.10">Generates stacks of \caac8ffFanatic Zeal\d when casting a skill. Grants a critical hit chance for all attacks and skills that increases by 3.75% for each stack. Maximum 13 stacks, each stack lasts 13 seconds.</string>
+
+			<!-- A Murder of Crows -->
+			<string name="skills.witch_hunter.murder-of-crows.5">Unleashes 13 \caac8ffDire Crows\d when taking damage that defend the Witch Hunter. \caac8ffDire Crows\d deal more damage and have more health. 6 second cooldown.</string>
+			<string name="skills.witch_hunter.murder-of-crows.6">Unleashes 17 \caac8ffDire Crows\d when taking damage that defend the Witch Hunter. \caac8ffDire Crows\d deal more damage and have more health. 5 second cooldown.</string>
+			<string name="skills.witch_hunter.murder-of-crows.7">Unleashes 21 \caac8ffMurderous Crows\d when taking damage that defend the Witch Hunter. \caac8ffMurderous Crows\d deal even MORE damage and have even MORE health. 4 second cooldown.</string>
+			<string name="skills.witch_hunter.murder-of-crows.8">Unleashes 25 \caac8ffMurderous Crows\d when taking damage that defend the Witch Hunter. \caac8ffMurderous Crows\d deal even MORE damage and have even MORE health. 4 second cooldown.</string>
+			<string name="skills.witch_hunter.murder-of-crows.9">Unleashes 30 \caac8ffMurderous Crows\d when taking damage that defend the Witch Hunter. \caac8ffMurderous Crows\d deal even MORE damage and have even MORE health. 4 second cooldown.</string>
+
+			<!-- Searing Torch -->
+			<string name="skills.witch_hunter.searing-torch.3">Throws a torch towards a random nearby enemy when casting a skill. The torch explodes on impact dealing 300 Magical damage and applying burning.</string>
+			<string name="skills.witch_hunter.searing-torch.4">Throws a torch towards a random nearby enemy when casting a skill. The torch explodes on impact dealing 900 Magical damage and applying burning.</string>
+			<string name="skills.witch_hunter.searing-torch.5">Throws a torch towards a random nearby enemy when casting a skill. The torch explodes on impact dealing 2250 Magical damage and applying burning.</string>
+			<string name="skills.witch_hunter.searing-torch.6">Throws a torch towards a random nearby enemy when casting a skill. The torch explodes on impact dealing 5625 Magical damage and applying burning.</string>
+			<string name="skills.witch_hunter.searing-torch.7">Throws a torch towards a random nearby enemy when casting a skill. The torch explodes on impact dealing 14062 Magical damage and applying burning.</string>
+</lang>

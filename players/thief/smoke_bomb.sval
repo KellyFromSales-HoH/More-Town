@@ -1,0 +1,131 @@
+<dict>
+	<string name="name">.skills.thief.smoke-bomb</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>120 72 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+		
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::DropUnit</string>
+
+			<int name="cooldown">5000</int>
+			<int name="castpoint">0</int>
+			
+			<string name="anim">attack 8</string>
+
+			<int name="mana-cost">30</int>
+
+			<string name="unit">players/thief/smoke_bomb_1.unit</string>
+			<int name="max-count">100</int>
+		</dict>
+		
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::DropUnit</string>
+
+			<int name="cooldown">5000</int>
+			<int name="castpoint">0</int>
+			
+			<string name="anim">attack 8</string>
+
+			<int name="mana-cost">35</int>
+
+			<string name="unit">players/thief/smoke_bomb_2.unit</string>
+			<int name="max-count">100</int>
+		</dict>
+		
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::DropUnit</string>
+
+			<int name="cooldown">5000</int>
+			<int name="castpoint">0</int>
+			
+			<string name="anim">attack 8</string>
+
+			<int name="mana-cost">40</int>
+
+			<string name="unit">players/thief/smoke_bomb_3.unit</string>
+			<int name="max-count">100</int>
+		</dict>
+
+		<!-- Level 4 t6-->
+		<dict>
+			<string name="class">Skills::DropUnit</string>
+
+			<int name="cooldown">5000</int>
+			<int name="castpoint">0</int>
+			
+			<string name="anim">attack 8</string>
+
+			<int name="mana-cost">80</int>
+
+			<string name="unit">players/thief/smoke_bomb_4.unit</string>
+			<int name="max-count">100</int>
+		</dict>
+
+		<!-- Level 5 -->
+		<dict>
+			<string name="class">Skills::DropUnit</string>
+
+			<int name="cooldown">5000</int>
+			<int name="castpoint">0</int>
+			
+			<string name="anim">attack 8</string>
+
+			<int name="mana-cost">160</int>
+
+			<string name="unit">players/thief/smoke_bomb_5.unit</string>
+			<int name="max-count">100</int>
+		</dict>
+
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::DropUnit</string>
+
+			<int name="cooldown">5000</int>
+			<int name="castpoint">0</int>
+			
+			<string name="anim">attack 8</string>
+
+			<int name="mana-cost">240</int>
+
+			<string name="unit">players/thief/smoke_bomb_6.unit</string>
+			<int name="max-count">100</int>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::DropUnit</string>
+
+			<int name="cooldown">5000</int>
+			<int name="castpoint">0</int>
+			
+			<string name="anim">attack 8</string>
+
+			<int name="mana-cost">360</int>
+
+			<string name="unit">players/thief/smoke_bomb_7.unit</string>
+			<int name="max-count">100</int>
+		</dict>
+
+		<!-- Level 8 -->
+		<dict>
+			<string name="class">Skills::DropUnit</string>
+
+			<int name="cooldown">5000</int>
+			<int name="castpoint">0</int>
+			
+			<string name="anim">attack 8</string>
+
+			<int name="mana-cost">450</int>
+
+			<string name="unit">players/thief/smoke_bomb_8.unit</string>
+			<int name="max-count">100</int>
+		</dict>
+	</array>
+</dict>

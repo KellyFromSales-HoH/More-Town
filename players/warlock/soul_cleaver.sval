@@ -1,0 +1,101 @@
+<dict>
+	<string name="name">.skills.warlock.soul-cleaver</string>
+	<array name="icon">
+		<string>gui/icons_skills.png</string>
+		<int>100</int><vec4>192 144 24 24</vec4>
+	</array>
+
+	<array name="skills">
+		<null />
+
+		<!-- Level 1 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::WarlockCleaverModifier</string>
+				<string name="buff">players/buffs.sval:soul-cleaver-1</string>
+			</dict>
+		</dict>
+
+		<!-- Level 2 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::WarlockCleaverModifier</string>
+				<string name="buff">players/buffs.sval:soul-cleaver-2</string>
+			</dict>
+		</dict>
+
+		<!-- Level 3 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::WarlockCleaverModifier</string>
+				<string name="buff">players/buffs.sval:soul-cleaver-3</string>
+			</dict>
+		</dict>
+
+		<!-- Level 4 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::WarlockCleaverModifier</string>
+				<string name="buff">players/buffs.sval:soul-cleaver-4</string>
+			</dict>
+		</dict>
+
+		<!-- Level 5 t6-->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::WarlockCleaverModifier</string>
+				<string name="buff">players/buffs.sval:soul-cleaver-5</string>
+			</dict>
+		</dict>
+
+		<!-- Level 6 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::WarlockCleaverModifier</string>
+				<string name="buff">players/buffs.sval:soul-cleaver-6</string>
+			</dict>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::WarlockCleaverModifier</string>
+				<string name="buff">players/buffs.sval:soul-cleaver-7</string>
+			</dict>
+		</dict>
+
+		<!-- Level 8 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::WarlockCleaverModifier</string>
+				<string name="buff">players/buffs.sval:soul-cleaver-8</string>
+			</dict>
+		</dict>
+
+		<!-- Level 9 -->
+		<dict>
+			<string name="class">Skills::PassiveSkill</string>
+
+			<dict name="modifier">
+				<string name="class">Modifiers::WarlockCleaverModifier</string>
+				<string name="buff">players/buffs.sval:soul-cleaver-9</string>
+			</dict>
+		</dict>
+	</array>
+</dict>

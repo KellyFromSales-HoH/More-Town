@@ -1,0 +1,78 @@
+<dict>
+	<array name="levels">
+		<!-- Level 0 -->
+		<dict></dict>
+
+		<!-- Level 1 -->
+		<dict>
+			<dict name="modifier">
+				<string name="class">Modifiers::Tax</string>
+				<int name="midpoint">10000</int>
+			</dict>
+		</dict>
+
+		<!-- Level 2 -->
+		<dict>
+			<dict name="modifier">
+				<string name="class">Modifiers::Tax</string>
+				<int name="midpoint">15000</int>
+			</dict>
+		</dict>
+
+		<!-- Level 3 -->
+		<dict>
+			<dict name="modifier">
+				<string name="class">Modifiers::Tax</string>
+				<int name="midpoint">20000</int>
+			</dict>
+		</dict>
+		
+		<!-- Level 4 -->
+		<dict>
+			<dict name="modifier">
+				<string name="class">Modifiers::Tax</string>
+				<int name="midpoint">25000</int>
+			</dict>
+		</dict>
+
+		<!-- Level 5 -->
+		<dict>
+			<dict name="modifier">
+				<string name="class">Modifiers::Tax</string>
+				<int name="midpoint">20000000</int>
+			</dict>
+		</dict>
+
+		<!-- Level 6 -->
+		<dict>
+			<dict name="modifier">
+				<string name="class">Modifiers::Tax</string>
+				<int name="midpoint">40000000</int>
+			</dict>
+		</dict>
+
+		<!-- Level 7 -->
+		<dict>
+			<dict name="modifier">
+				<string name="class">Modifiers::Tax</string>
+				<int name="midpoint">60000000</int>
+			</dict>
+		</dict>
+
+		<!-- Level 8 -->
+		<dict>
+			<dict name="modifier">
+				<string name="class">Modifiers::Tax</string>
+				<int name="midpoint">80000000</int>
+			</dict>
+		</dict>
+
+		<!-- Level 9 -->
+		<dict>
+			<dict name="modifier">
+				<string name="class">Modifiers::Tax</string>
+				<int name="midpoint">100000000</int>
+			</dict>
+		</dict>
+	</array>
+</dict>

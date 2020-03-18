@@ -1,0 +1,37 @@
+<dict>
+	<array name="tiles"></array>
+	<dict name="game-mode">
+	</dict>
+	<int name="version">1</int>
+	<dict name="lighting">
+		<string name="environment">effects/env/anatolia_outside.env</string>
+	</dict>
+	<dict name="units">
+		<array name="doodads/generic/chest_wood.unit"><vec2>24 12</vec2><int>1</int></array>
+		<array name="items/money_gold_1.unit">
+			<vec2>22 18</vec2>
+			<int>7</int>
+			<vec2>13 13</vec2>
+			<int>8</int>
+			<vec2>21 21</vec2>
+			<int>9</int>
+			<vec2>14 9</vec2>
+			<int>13</int>
+			<vec2>45 9</vec2>
+			<int>14</int>
+			<vec2>45 20</vec2>
+			<int>15</int>
+			<vec2>32 26</vec2>
+			<int>16</int>
+			<vec2>23 25</vec2>
+			<int>17</int>
+			<vec2>9 27</vec2>
+			<int>18</int>
+		</array>
+		<array name="items/money_diamond_red_small.unit"><vec2>34 19</vec2><int>10</int><vec2>39 26</vec2><int>11</int></array>
+		<array name="items/money_diamond_red_large.unit"><vec2>5 22</vec2><int>2</int><vec2>9 12</vec2><int>12</int></array>
+		<array name="items/money_diamond_blue_large.unit"><vec2>16 27</vec2><int>3</int></array>
+		<array name="items/money_diamond_blue_small.unit"><vec2>27 24</vec2><int>4</int><vec2>43 18</vec2><int>5</int><vec2>38 11</vec2><int>6</int></array>
+	</dict>
+	<array name="scripts"></array>
+</dict>
