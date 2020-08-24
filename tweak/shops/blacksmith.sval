@@ -199,14 +199,14 @@
 					<int name="restrict-player-title-min">4</int>
 %endif
 					<int name="restrict-shop-level-min">6</int>
-					<int name="cost-gold">70000</int>
+					<int name="cost-gold">35000</int>
 
-					<string name="name">.shop.blacksmith.armor-12.name</string>
-					<string name="desc">.shop.blacksmith.armor-12.desc</string>
+					<string name="name">.shop.blacksmith.armor.name?lvl=XII</string>
+					<string name="desc">.shop.blacksmith.armor.desc?amount=+70</string>
 
 					<dict name="modifier">
 						<string name="class">Modifiers::Armor</string>
-						<int name="armor">95</int>
+						<int name="armor">70</int>
 					</dict>
 				</dict>
 
@@ -437,28 +437,31 @@
 					<int name="restrict-player-title-min">4</int>
 %endif
 					<int name="restrict-shop-level-min">6</int>
-					<int name="cost-gold">35000</int>
+					<int name="cost-gold">25000</int>
 
 					<string name="name">.shop.blacksmith.weapon-11.name</string>
 					<string name="desc">.shop.blacksmith.weapon-11.desc</string>
 
 					<dict name="modifier">
 						<string name="class">Modifiers::Damage</string>
-						<int name="attack-power">108</int>
+						<int name="attack-power">100</int>
 					</dict>
 				</dict>
 				
 				<!-- Level 12 -->
 				<dict>
-					<int name="restrict-shop-level-min">7</int>
-					<int name="cost-gold">70000</int>
+%if HARDCORE
+					<int name="restrict-player-title-min">4</int>
+%endif
+					<int name="restrict-shop-level-min">6</int>
+					<int name="cost-gold">35000</int>
 
 					<string name="name">.shop.blacksmith.weapon-12.name</string>
 					<string name="desc">.shop.blacksmith.weapon-12.desc</string>
 
 					<dict name="modifier">
 						<string name="class">Modifiers::Damage</string>
-						<int name="attack-power">164</int>
+						<int name="attack-power">120</int>
 					</dict>
 				</dict>
 
@@ -896,7 +899,7 @@
 
 					<dict name="modifier">
 						<string name="class">Modifiers::Speed</string>
-						<float name="movement">0.7</float>
+						<float name="movement">0.6</float>
 					</dict>
 				</dict>
 

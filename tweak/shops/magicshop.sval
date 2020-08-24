@@ -127,11 +127,11 @@
 					<int name="cost-gold">25000</int>
 
 					<string name="name">.shop.magicshop.resistance.name?lvl=VII</string>
-					<string name="desc">.shop.magicshop.resistance.desc?amount=+45</string>
+					<string name="desc">.shop.magicshop.resistance.desc?amount=+40</string>
 
 					<dict name="modifier">
 						<string name="class">Modifiers::Armor</string>
-						<int name="resistance">45</int>
+						<int name="resistance">40</int>
 					</dict>
 				</dict>
 				
@@ -144,11 +144,11 @@
 					<int name="cost-gold">35000</int>
 
 					<string name="name">.shop.magicshop.resistance.name?lvl=VIII</string>
-					<string name="desc">.shop.magicshop.resistance.desc?amount=+75</string>
+					<string name="desc">.shop.magicshop.resistance.desc?amount=+50</string>
 
 					<dict name="modifier">
 						<string name="class">Modifiers::Armor</string>
-						<int name="resistance">75</int>
+						<int name="resistance">50</int>
 					</dict>
 				</dict>
 
@@ -317,14 +317,14 @@
 					<int name="restrict-player-title-min">4</int>
 %endif
 					<int name="restrict-shop-level-min">4</int>
-					<int name="cost-gold">35000</int>
+					<int name="cost-gold">25000</int>
 
 					<string name="name">.shop.magicshop.spellpower.name?lvl=VII</string>
-					<string name="desc">.shop.magicshop.spellpower.desc?amount=+58</string>
+					<string name="desc">.shop.magicshop.spellpower.desc?amount=+40</string>
 
 					<dict name="modifier">
 						<string name="class">Modifiers::Damage</string>
-						<int name="spell-power">58</int>
+						<int name="spell-power">40</int>
 					</dict>
 				</dict>
 				
@@ -337,11 +337,11 @@
 					<int name="cost-gold">35000</int>
 
 					<string name="name">.shop.magicshop.spellpower.name?lvl=VIII</string>
-					<string name="desc">.shop.magicshop.spellpower.desc?amount=+114</string>
+					<string name="desc">.shop.magicshop.spellpower.desc?amount=+50</string>
 
 					<dict name="modifier">
 						<string name="class">Modifiers::Damage</string>
-						<int name="spell-power">114</int>
+						<int name="spell-power">50</int>
 					</dict>
 				</dict>
 
@@ -352,11 +352,11 @@
 					<int name="cost-gold">140000</int>
 
 					<string name="name">.shop.magicshop.spellpower.name?lvl=IX</string>
-					<string name="desc">.shop.magicshop.spellpower.desc?amount=+198</string>
+					<string name="desc">.shop.magicshop.spellpower.desc?amount=+200</string>
 
 					<dict name="modifier">
 						<string name="class">Modifiers::Damage</string>
-						<int name="spell-power">198</int>
+						<int name="spell-power">200</int>
 					</dict>
 				</dict>
 
@@ -367,11 +367,11 @@
 					<int name="cost-gold">280000</int>
 
 					<string name="name">.shop.magicshop.spellpower.name?lvl=X</string>
-					<string name="desc">.shop.magicshop.spellpower.desc?amount=+314</string>
+					<string name="desc">.shop.magicshop.spellpower.desc?amount=+359</string>
 
 					<dict name="modifier">
 						<string name="class">Modifiers::Damage</string>
-						<int name="spell-power">314</int>
+						<int name="spell-power">350</int>
 					</dict>
 				</dict>
 
@@ -382,11 +382,11 @@
 					<int name="cost-gold">560000</int>
 
 					<string name="name">.shop.magicshop.spellpower.name?lvl=XI</string>
-					<string name="desc">.shop.magicshop.spellpower.desc?amount=+450</string>
+					<string name="desc">.shop.magicshop.spellpower.desc?amount=+500</string>
 
 					<dict name="modifier">
 						<string name="class">Modifiers::Damage</string>
-						<int name="spell-power">450</int>
+						<int name="spell-power">500</int>
 					</dict>
 				</dict>
 			</array>

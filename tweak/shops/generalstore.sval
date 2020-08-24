@@ -63,14 +63,13 @@
 
 		<!-- Level 6 -->
 		<dict>
-		
-			<float name="cost-scale">0.8</float>
+			<float name="cost-scale">0.75</float>
 			<array name="qualities">
 				<string>common</string>
 				<string>common</string>
+				<string>common</string>
 				<string>uncommon</string>
 				<string>uncommon</string>
-				<string>rare</string>
 				<string>rare</string>
 			</array>
 		</dict>
@@ -78,7 +77,7 @@
 		<!-- Level 7 -->
 		<dict>
 		
-			<float name="cost-scale">0.75</float>
+			<float name="cost-scale">0.70</float>
 			<array name="qualities">
 				<string>common</string>
 				<string>common</string>

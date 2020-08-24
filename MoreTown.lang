@@ -46,7 +46,7 @@
 			<string name="shop.townhall.generalstore-6.desc">Buy Keys and Items (2 common, 2 uncommon, 2 rare). Prices are 20% cheaper.</string>
 
 			<string name="shop.townhall.generalstore-7.name">General Store VII</string>
-			<string name="shop.townhall.generalstore-7.desc">Buy Keys and Items (2 common, 2 uncommon, 2 rare, 1 epic). Prices are 25% cheaper.</string>
+			<string name="shop.townhall.generalstore-7.desc">Buy Keys and Items (2 common, 2 uncommon, 2 rare, 1 epic). Prices are 30% cheaper.</string>
 
 			<string name="shop.townhall.guildhall-6.name">Guild Hall VI</string>
 			<string name="shop.townhall.guildhall-6.desc">Upgrade your skills to Tier 6.</string>
@@ -99,6 +99,9 @@
 			<string name="shop.townhall.treasury-9.name">Treasury IX</string>
 			<string name="shop.townhall.treasury-9.desc">50% tax rate at 100000000 total gold.</string>
 
+			<string name="shop.townhall.treasury-10.name">Treasury X</string>
+			<string name="shop.townhall.treasury-10.desc">50% tax rate at 200000000 total gold.</string>
+
 			<!-- apothecary -->
 			<string name="shop.apothecary.charges.name">Potion Charges %lvl%</string>
 			<string name="shop.apothecary.charges.desc">Your potion will have %num% charges.</string>
@@ -124,7 +127,7 @@
 			<string name="shop.blacksmith.armor-11.desc">+65 to your Armor.</string>
 
 			<string name="shop.blacksmith.armor-12.name">Armor XII</string>
-			<string name="shop.blacksmith.armor-12.desc">+95 to your Armor.</string>
+			<string name="shop.blacksmith.armor-12.desc">+70 to your Armor.</string>
 
 			<string name="shop.blacksmith.armor-13.name">Armor XIII</string>
 			<string name="shop.blacksmith.armor-13.desc">+140 to your Armor.</string>
@@ -136,7 +139,7 @@
 			<string name="shop.blacksmith.armor-15.desc">+275 to your Armor.</string>
 
 			<string name="shop.blacksmith.weapon-11.name">Weapon XI</string>
-			<string name="shop.blacksmith.weapon-11.desc">+108 to your Attack Power.</string>
+			<string name="shop.blacksmith.weapon-11.desc">+100 to your Attack Power.</string>
 
 			<string name="shop.blacksmith.weapon-12.name">Weapon XII</string>
 			<string name="shop.blacksmith.weapon-12.desc">+164 to your Attack Power.</string>
@@ -175,7 +178,7 @@
 			<string name="shop.blacksmith.criticaldamage-6.desc">Increases Critical Damage on your Primary attack to 5x.</string>
 
 			<string name="shop.blacksmith.movespeed-6.name">Boots VI</string>
-			<string name="shop.blacksmith.movespeed-6.desc">+0.7 to your Move Speed</string>
+			<string name="shop.blacksmith.movespeed-6.desc">+0.6 to your Move Speed</string>
 
 			<string name="shop.blacksmith.movespeed-7.name">Boots VII</string>
 			<string name="shop.blacksmith.movespeed-7.desc">+0.9 to your Move Speed</string>
@@ -191,10 +194,10 @@
 
 			<!-- magic shop -->
 			<string name="shop.magicshop.resistance-7.name">Resistance VII</string>
-			<string name="shop.magicshop.resistance-7.desc">+45 to your Resistance.</string>
+			<string name="shop.magicshop.resistance-7.desc">+40 to your Resistance.</string>
 
 			<string name="shop.magicshop.resistance-8.name">Resistance VIII</string>
-			<string name="shop.magicshop.resistance-8.desc">+75 to your Resistance.</string>
+			<string name="shop.magicshop.resistance-8.desc">+50 to your Resistance.</string>
 
 			<string name="shop.magicshop.resistance-9.name">Resistance IX</string>
 			<string name="shop.magicshop.resistance-9.desc">+120 to your Resistance.</string>
@@ -206,19 +209,19 @@
 			<string name="shop.magicshop.resistance-11.desc">+255 to your Resistance.</string>
 
 			<string name="shop.magicshop.spellpower-7.name">Skill Damage VII</string>
-			<string name="shop.magicshop.spellpower-7.desc">+58 to your Skill Power.</string>
+			<string name="shop.magicshop.spellpower-7.desc">+40 to your Skill Power.</string>
 
 			<string name="shop.magicshop.spellpower-8.name">Skill Damage VIII</string>
-			<string name="shop.magicshop.spellpower-8.desc">+114 to your Skill Power.</string>
+			<string name="shop.magicshop.spellpower-8.desc">+50 to your Skill Power.</string>
 
 			<string name="shop.magicshop.spellpower-9.name">Skill Damage IX</string>
-			<string name="shop.magicshop.spellpower-9.desc">+198 to your Skill Power.</string>
+			<string name="shop.magicshop.spellpower-9.desc">+200 to your Skill Power.</string>
 
 			<string name="shop.magicshop.spellpower-10.name">Skill Damage X</string>
-			<string name="shop.magicshop.spellpower-10.desc">+314 to your Skill Power.</string>
+			<string name="shop.magicshop.spellpower-10.desc">+350 to your Skill Power.</string>
 
 			<string name="shop.magicshop.spellpower-11.name">Skill Damage XI</string>
-			<string name="shop.magicshop.spellpower-11.desc">+450 to your Skill Power.</string>
+			<string name="shop.magicshop.spellpower-11.desc">+500 to your Skill Power.</string>
 
 			<string name="shop.magicshop.spellcritchance-4.name">Skill Crit Chance IV</string>
 			<string name="shop.magicshop.spellcritchance-4.desc">17% chance to deal Critical Damage with Skills.</string>

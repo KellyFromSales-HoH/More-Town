@@ -137,12 +137,12 @@
 			<array name="steps">
 				<dict>
 					<string name="name">.shop.oretrader.ore-gold.name?ore=1</string>
-					<string name="desc">.shop.oretrader.ore-gold.desc?gold=1000&ore=1</string>
+					<string name="desc">.shop.oretrader.ore-gold.desc?gold=800&ore=1</string>
 
 					<int name="restrict-shop-level-max">4</int>
 					<int name="restrict-shop-level-min">4</int>
 
-					<int name="cost-gold">1000</int>
+					<int name="cost-gold">800</int>
 					<int name="amount-ore">1</int>
 				</dict>
 			</array>
@@ -157,12 +157,12 @@
 			<array name="steps">
 				<dict>
 					<string name="name">.shop.oretrader.ore-gold.name?ore=10</string>
-					<string name="desc">.shop.oretrader.ore-gold.desc?gold=10000&ore=10</string>
+					<string name="desc">.shop.oretrader.ore-gold.desc?gold=8000&ore=10</string>
 
 					<int name="restrict-shop-level-max">4</int>
 					<int name="restrict-shop-level-min">4</int>
 
-					<int name="cost-gold">10000</int>
+					<int name="cost-gold">8000</int>
 					<int name="amount-ore">10</int>
 				</dict>
 			</array>
@@ -177,12 +177,12 @@
 			<array name="steps">
 				<dict>
 					<string name="name">.shop.oretrader.ore-gold.name?ore=100</string>
-					<string name="desc">.shop.oretrader.ore-gold.desc?gold=100000&ore=100</string>
+					<string name="desc">.shop.oretrader.ore-gold.desc?gold=80000&ore=100</string>
 
 					<int name="restrict-shop-level-max">4</int>
 					<int name="restrict-shop-level-min">4</int>
 
-					<int name="cost-gold">100000</int>
+					<int name="cost-gold">80000</int>
 					<int name="amount-ore">100</int>
 				</dict>
 			</array>
@@ -198,12 +198,12 @@
 			<array name="steps">
 				<dict>
 					<string name="name">.shop.oretrader.ore-gold.name?ore=1</string>
-					<string name="desc">.shop.oretrader.ore-gold.desc?gold=1000&ore=1</string>
+					<string name="desc">.shop.oretrader.ore-gold.desc?gold=700&ore=1</string>
 
 					<int name="restrict-shop-level-max">5</int>
 					<int name="restrict-shop-level-min">5</int>
 
-					<int name="cost-gold">1000</int>
+					<int name="cost-gold">700</int>
 					<int name="amount-ore">1</int>
 				</dict>
 			</array>
@@ -218,12 +218,12 @@
 			<array name="steps">
 				<dict>
 					<string name="name">.shop.oretrader.ore-gold.name?ore=10</string>
-					<string name="desc">.shop.oretrader.ore-gold.desc?gold=10000&ore=10</string>
+					<string name="desc">.shop.oretrader.ore-gold.desc?gold=7000&ore=10</string>
 
 					<int name="restrict-shop-level-max">5</int>
 					<int name="restrict-shop-level-min">5</int>
 
-					<int name="cost-gold">10000</int>
+					<int name="cost-gold">7000</int>
 					<int name="amount-ore">10</int>
 				</dict>
 			</array>
@@ -238,12 +238,12 @@
 			<array name="steps">
 				<dict>
 					<string name="name">.shop.oretrader.ore-gold.name?ore=100</string>
-					<string name="desc">.shop.oretrader.ore-gold.desc?gold=100000&ore=100</string>
+					<string name="desc">.shop.oretrader.ore-gold.desc?gold=70000&ore=100</string>
 
 					<int name="restrict-shop-level-max">5</int>
 					<int name="restrict-shop-level-min">5</int>
 
-					<int name="cost-gold">100000</int>
+					<int name="cost-gold">70000</int>
 					<int name="amount-ore">100</int>
 				</dict>
 			</array>
@@ -258,12 +258,12 @@
 			<array name="steps">
 				<dict>
 					<string name="name">.shop.oretrader.ore-gold.name?ore=1000</string>
-					<string name="desc">.shop.oretrader.ore-gold.desc?gold=1000000&ore=1000</string>
+					<string name="desc">.shop.oretrader.ore-gold.desc?gold=700000&ore=1000</string>
 
 					<int name="restrict-shop-level-max">5</int>
 					<int name="restrict-shop-level-min">5</int>
 
-					<int name="cost-gold">1000000</int>
+					<int name="cost-gold">700000</int>
 					<int name="amount-ore">1000</int>
 				</dict>
 			</array>
@@ -401,13 +401,13 @@
 			<array name="steps">
 				<dict>
 					<string name="name">.shop.oretrader.gold-ore.name?ore=1</string>
-					<string name="desc">.shop.oretrader.gold-ore.desc?ore=1&gold=750</string>
+					<string name="desc">.shop.oretrader.gold-ore.desc?ore=1&gold=700</string>
 					
 					<int name="restrict-shop-level-max">4</int>
 					<int name="restrict-shop-level-min">4</int>
 
 					<int name="cost-ore">1</int>
-					<int name="amount-gold">750</int>
+					<int name="amount-gold">700</int>
 				</dict>
 			</array>
 		</dict>
@@ -421,13 +421,13 @@
 			<array name="steps">
 				<dict>
 					<string name="name">.shop.oretrader.gold-ore.name?ore=10</string>
-					<string name="desc">.shop.oretrader.gold-ore.desc?ore=10&gold=3500</string>
+					<string name="desc">.shop.oretrader.gold-ore.desc?ore=10&gold=7000</string>
 					
 					<int name="restrict-shop-level-max">4</int>
 					<int name="restrict-shop-level-min">4</int>
 
 					<int name="cost-ore">10</int>
-					<int name="amount-gold">7500</int>
+					<int name="amount-gold">7000</int>
 				</dict>
 			</array>
 		</dict>
@@ -441,13 +441,13 @@
 			<array name="steps">
 				<dict>
 					<string name="name">.shop.oretrader.gold-ore.name?ore=100</string>
-					<string name="desc">.shop.oretrader.gold-ore.desc?ore=100&gold=75000</string>
+					<string name="desc">.shop.oretrader.gold-ore.desc?ore=100&gold=70000</string>
 					
 					<int name="restrict-shop-level-max">4</int>
 					<int name="restrict-shop-level-min">4</int>
 
 					<int name="cost-ore">100</int>
-					<int name="amount-gold">75000</int>
+					<int name="amount-gold">70000</int>
 				</dict>
 			</array>
 		</dict>

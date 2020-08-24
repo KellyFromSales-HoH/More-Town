@@ -34,12 +34,12 @@
 				<int name="midpoint">25000</int>
 			</dict>
 		</dict>
-
+		
 		<!-- Level 5 -->
 		<dict>
 			<dict name="modifier">
 				<string name="class">Modifiers::Tax</string>
-				<int name="midpoint">20000000</int>
+				<int name="midpoint">30000</int>
 			</dict>
 		</dict>
 
@@ -72,6 +72,14 @@
 			<dict name="modifier">
 				<string name="class">Modifiers::Tax</string>
 				<int name="midpoint">100000000</int>
+			</dict>
+		</dict>
+
+		<!-- Level 10 -->
+		<dict>
+			<dict name="modifier">
+				<string name="class">Modifiers::Tax</string>
+				<int name="midpoint">200000000</int>
 			</dict>
 		</dict>
 	</array>

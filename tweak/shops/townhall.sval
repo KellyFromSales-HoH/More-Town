@@ -65,12 +65,13 @@
 
 					<int name="building-level">5</int>
 				</dict>
+
 				<!-- Level 6 -->
 				<dict>
-					<int name="cost-ore">600</int>
+					<int name="cost-ore">160</int>
 
-					<string name="name">.shop.townhall.townhall-6.name</string>
-					<string name="desc">.shop.townhall.townhall-6.desc</string>
+					<string name="name">.shop.townhall.townhall.name?lvl=VI</string>
+					<string name="desc">.shop.townhall.townhall.desc?num=6</string>
 
 					<int name="building-level">6</int>
 				</dict>
@@ -162,14 +163,14 @@
 					<int name="restrict-shop-level-min">4</int>
 					<int name="building-level">4</int>
 				</dict>
-
+				
 				<!-- Level 5 -->
 				<dict>
-					<int name="cost-ore">1200</int>
+					<int name="cost-ore">160</int>
 
-					<string name="name">.shop.townhall.treasury-5.name</string>
-					<string name="desc">.shop.townhall.treasury-5.desc</string>
-					<int name="restrict-shop-level-min">6</int>
+					<string name="name">.shop.townhall.treasury.name?lvl=V</string>
+					<string name="desc">.shop.townhall.treasury.desc?num=30000</string>
+					<int name="restrict-shop-level-min">5</int>
 					<int name="building-level">5</int>
 				</dict>
 
@@ -179,7 +180,7 @@
 
 					<string name="name">.shop.townhall.treasury-6.name</string>
 					<string name="desc">.shop.townhall.treasury-6.desc</string>
-					<int name="restrict-shop-level-min">7</int>
+					<int name="restrict-shop-level-min">6</int>
 					<int name="building-level">6</int>
 				</dict>
 
@@ -189,7 +190,7 @@
 
 					<string name="name">.shop.townhall.treasury-7.name</string>
 					<string name="desc">.shop.townhall.treasury-7.desc</string>
-					<int name="restrict-shop-level-min">8</int>
+					<int name="restrict-shop-level-min">7</int>
 					<int name="building-level">7</int>
 				</dict>
 
@@ -199,7 +200,7 @@
 
 					<string name="name">.shop.townhall.treasury-8.name</string>
 					<string name="desc">.shop.townhall.treasury-8.desc</string>
-					<int name="restrict-shop-level-min">9</int>
+					<int name="restrict-shop-level-min">8</int>
 					<int name="building-level">8</int>
 				</dict>
 
@@ -209,8 +210,18 @@
 
 					<string name="name">.shop.townhall.treasury-9.name</string>
 					<string name="desc">.shop.townhall.treasury-9.desc</string>
-					<int name="restrict-shop-level-min">10</int>
+					<int name="restrict-shop-level-min">9</int>
 					<int name="building-level">9</int>
+				</dict>
+
+				<!-- Level 10 -->
+				<dict>
+					<int name="cost-ore">128000</int>
+
+					<string name="name">.shop.townhall.treasury-10.name</string>
+					<string name="desc">.shop.townhall.treasury-10.desc</string>
+					<int name="restrict-shop-level-min">10</int>
+					<int name="building-level">10</int>
 				</dict>
 			</array>
 		</dict>
@@ -381,14 +392,14 @@
 					<int name="restrict-shop-level-min">5</int>
 					<int name="building-level">5</int>
 				</dict>
-
+				
 				<!-- Level 6 -->
 				<dict>
-					<int name="cost-ore">10625</int>
+					<int name="cost-ore">200</int>
 
-					<string name="name">.shop.townhall.generalstore-6.name</string>
+					<string name="name">.shop.townhall.generalstore.name?lvl=VI</string>
 					<string name="desc">.shop.townhall.generalstore-6.desc</string>
-					<int name="restrict-shop-level-min">7</int>
+					<int name="restrict-shop-level-min">6</int>
 					<int name="building-level">6</int>
 				</dict>
 
@@ -463,13 +474,13 @@
 					<int name="restrict-shop-level-min">5</int>
 					<int name="building-level">5</int>
 				</dict>
-
+				
 				<!-- Level 6 -->
 				<dict>
-					<int name="cost-ore">750</int>
+					<int name="cost-ore">200</int>
 
-					<string name="name">.shop.townhall.blacksmith-6.name</string>
-					<string name="desc">.shop.townhall.blacksmith-6.desc</string>
+					<string name="name">.shop.townhall.blacksmith.name?lvl=VI</string>
+					<string name="desc">.shop.townhall.blacksmith.desc</string>
 					<int name="restrict-shop-level-min">6</int>
 					<int name="building-level">6</int>
 				</dict>
@@ -560,14 +571,15 @@
 					<string name="restrict-flag">special_ore</string>
 					<int name="building-level">3</int>
 				</dict>
+				
 				<!-- Level 4 -->
 				<dict>
-					<int name="cost-ore">10625</int>
+					<int name="cost-ore">60</int>
 
-					<string name="name">.shop.townhall.oretrader-4.name</string>
-					<string name="desc">.shop.townhall.oretrader-4.desc</string>
+					<string name="name">.shop.townhall.oretrader.name?lvl=IV</string>
+					<string name="desc">.shop.townhall.oretrader-2.desc</string>
 					
-					<int name="restrict-shop-level-min">7</int>
+					<int name="restrict-shop-level-min">4</int>
 					<string name="restrict-flag">special_ore</string>
 					<int name="building-level">4</int>
 				</dict>
@@ -578,7 +590,7 @@
 					<string name="name">.shop.townhall.oretrader-5.name</string>
 					<string name="desc">.shop.townhall.oretrader-5.desc</string>
 					
-					<int name="restrict-shop-level-min">9</int>
+					<int name="restrict-shop-level-min">5</int>
 					<string name="restrict-flag">special_ore</string>
 					<int name="building-level">5</int>
 				</dict>
@@ -629,27 +641,27 @@
 					<string name="restrict-flag">unlock_apothecary</string>
 					<int name="building-level">3</int>
 				</dict>
-
+				
 				<!-- Level 4 -->
 				<dict>
-					<int name="cost-ore">1050</int>
+					<int name="cost-ore">60</int>
 
-					<string name="name">.shop.townhall.apothecary-4.name</string>
-					<string name="desc">.shop.townhall.apothecary-4.desc</string>
+					<string name="name">.shop.townhall.apothecary.name?lvl=IV</string>
+					<string name="desc">.shop.townhall.apothecary-2.desc</string>
 					
-					<int name="restrict-shop-level-min">6</int>
+					<int name="restrict-shop-level-min">4</int>
 					<string name="restrict-flag">unlock_apothecary</string>
 					<int name="building-level">4</int>
 				</dict>
-
+				
 				<!-- Level 5 -->
 				<dict>
-					<int name="cost-ore">26250</int>
+					<int name="cost-ore">90</int>
 
-					<string name="name">.shop.townhall.apothecary-5.name</string>
-					<string name="desc">.shop.townhall.apothecary-5.desc</string>
+					<string name="name">.shop.townhall.apothecary.name?lvl=V</string>
+					<string name="desc">.shop.townhall.apothecary-2.desc</string>
 					
-					<int name="restrict-shop-level-min">8</int>
+					<int name="restrict-shop-level-min">5</int>
 					<string name="restrict-flag">unlock_apothecary</string>
 					<int name="building-level">5</int>
 				</dict>
@@ -716,33 +728,30 @@
 
 					<string name="name">.shop.townhall.chapel-1.name</string>
 					<string name="desc">.shop.townhall.chapel-1.desc</string>
-					<int name="restrict-shop-level-min">4</int>
-					<!-- <string name="restrict-flag">unlock_priest</string> -->
+					<int name="restrict-shop-level-min">2</int>
 					<int name="building-level">1</int>
 				</dict>
 				
 				<!-- Level 2 -->
 				<dict>
-					<int name="cost-ore">1050</int>
+					<int name="cost-ore">35</int>
 					
 					<string name="name">.shop.townhall.chapel-2.name</string>
 					<string name="desc">.shop.townhall.chapel-2.desc</string>
-					<int name="restrict-shop-level-min">6</int>
-					<!-- <string name="restrict-flag">unlock_priest</string> -->
+					<int name="restrict-shop-level-min">3</int>
 					<int name="building-level">2</int>
 				</dict>
 				
 				<!-- Level 3 -->
 				<dict>
-					<int name="cost-ore">26250</int>
+					<int name="cost-ore">135</int>
 					
 					<string name="name">.shop.townhall.chapel-3.name</string>
 					<string name="desc">.shop.townhall.chapel-3.desc</string>
-					<int name="restrict-shop-level-min">8</int>
-					<!-- <string name="restrict-flag">unlock_priest</string> -->
+					<int name="restrict-shop-level-min">5</int>
 					<int name="building-level">3</int>
 				</dict>
-
+				
 				<!-- Level 4 -->
 				<dict>
 					<int name="cost-ore">250</int>
@@ -750,7 +759,7 @@
 					<string name="name">.shop.townhall.chapel-4.name</string>
 					<string name="desc">.shop.townhall.chapel-4.desc</string>
 					<int name="restrict-shop-level-min">6</int>
-					<int name=="building-level">4</int>
+					<int name="building-level">4</int>
 				</dict>
 			</array>
 		</dict>
@@ -845,10 +854,10 @@
 
 				<!-- Level 4 -->
 				<dict>
-					<int name="cost-ore">900</int>
+					<int name="cost-ore">200</int>
 					
-					<string name="name">.shop.townhall.magicshop-4.name</string>
-					<string name="desc">.shop.townhall.magicshop-4.desc</string>
+					<string name="name">.shop.townhall.magicshop.name?lvl=IV</string>
+					<string name="desc">.shop.townhall.magicshop-2.desc</string>
 					<int name="restrict-shop-level-min">6</int>
 					<string name="restrict-flag">unlock_magicshop</string>
 					<int name="building-level">4</int>
@@ -899,42 +908,5 @@
 				</dict>
 			</array>
 		</dict>
-		
-		<!-- Sculptor -->
-		<!--
-		<dict>
-			<string name="class">Upgrades::BuildingUpgrade</string>
-			<string name="id">sculptor</string>
-
-			<array name="steps">
-				<dict>
-					<int name="cost-ore">15</int>
-
-					<string name="name">.shop.townhall.sculptor-1.name</string>
-					<string name="desc">.shop.townhall.sculptor-1.desc</string>
-					<int name="restrict-shop-level-min">2</int>
-					<int name="building-level">1</int>
-				</dict>
-				
-				<dict>
-					<int name="cost-ore">30</int>
-					
-					<string name="name">.shop.townhall.sculptor-2.name</string>
-					<string name="desc">.shop.townhall.sculptor-2.desc</string>
-					<int name="restrict-shop-level-min">3</int>
-					<int name="building-level">2</int>
-				</dict>
-				
-				<dict>
-					<int name="cost-ore">45</int>
-					
-					<string name="name">.shop.townhall.sculptor-3.name</string>
-					<string name="desc">.shop.townhall.sculptor-3.desc</string>
-					<int name="restrict-shop-level-min">4</int>
-					<int name="building-level">3</int>
-				</dict>
-			</array>
-		</dict>
-		-->
 	</array>
 </dict>
