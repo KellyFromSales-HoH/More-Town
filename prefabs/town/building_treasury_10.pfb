@@ -14,50 +14,50 @@
 	</dict>
 	<int name="version">1</int>
 	<dict name="units">
-		<array name="items/money_gold_2.unit">
-			<vec2>43 24</vec2>
-			<int>10</int>
-			<vec2>19 20</vec2>
-			<int>11</int>
-			<vec2>28 29</vec2>
-			<int>12</int>
-			<vec2>14 29</vec2>
-			<int>13</int>
-			<vec2>6 26</vec2>
-			<int>14</int>
-			<vec2>42 26</vec2>
-			<int>15</int>
-			<vec2>12 14</vec2>
-			<int>16</int>
-		</array>
-		<array name="items/money_diamond_gold_small.unit">
-			<vec2>34 22</vec2>
-			<int>17</int>
-			<vec2>42 18</vec2>
-			<int>18</int>
-			<vec2>12 20</vec2>
+		<array name="doodads/generic/chest_ace.unit"><vec2>16 15</vec2><int>16</int><vec2>33 16</vec2><int>17</int><vec2>24 12</vec2><int>15</int></array>
+		<array name="items/money_gold_1.unit">
+			<vec2>36 26</vec2>
+			<int>22</int>
+			<vec2>3 16</vec2>
+			<int>23</int>
+			<vec2>8 29</vec2>
 			<int>19</int>
-			<vec2>33 27</vec2>
+			<vec2>21 27</vec2>
 			<int>20</int>
-			<vec2>39 22</vec2>
+			<vec2>42 29</vec2>
 			<int>21</int>
 		</array>
-		<array name="items/money_diamond_red_small.unit"><vec2>8 26</vec2><int>8</int><vec2>15 28</vec2><int>9</int></array>
-		<array name="doodads/generic/chest_ace.unit"><vec2>24 12</vec2><int>1</int></array>
-		<array name="items/money_diamond_red_large.unit"><vec2>38 12</vec2><int>7</int></array>
-		<array name="items/money_gold_1.unit">
-			<vec2>8 29</vec2>
-			<int>2</int>
-			<vec2>21 27</vec2>
-			<int>3</int>
-			<vec2>42 29</vec2>
-			<int>4</int>
-			<vec2>36 26</vec2>
-			<int>5</int>
-			<vec2>3 16</vec2>
-			<int>6</int>
+		<array name="items/money_diamond_red_large.unit"><vec2>38 12</vec2><int>18</int></array>
+		<array name="items/money_diamond_red_small.unit"><vec2>8 26</vec2><int>13</int><vec2>15 28</vec2><int>14</int></array>
+		<array name="items/money_diamond_gold_small.unit">
+			<vec2>34 22</vec2>
+			<int>8</int>
+			<vec2>42 18</vec2>
+			<int>9</int>
+			<vec2>14 24</vec2>
+			<int>10</int>
+			<vec2>33 27</vec2>
+			<int>11</int>
+			<vec2>39 22</vec2>
+			<int>12</int>
 		</array>
-		<array name="items/money_diamond_gold_large.unit"><vec2>8 12</vec2><int>23</int></array>
+		<array name="items/money_gold_2.unit">
+			<vec2>43 24</vec2>
+			<int>1</int>
+			<vec2>25 20</vec2>
+			<int>2</int>
+			<vec2>28 29</vec2>
+			<int>3</int>
+			<vec2>14 29</vec2>
+			<int>4</int>
+			<vec2>6 26</vec2>
+			<int>5</int>
+			<vec2>42 26</vec2>
+			<int>6</int>
+			<vec2>12 14</vec2>
+			<int>7</int>
+		</array>
+		<array name="items/money_diamond_gold_large.unit"><vec2>8 12</vec2><int>24</int></array>
 		<array name="items/money_diamond_blue_small.unit">
 			<vec2>20 27</vec2>
 			<int>25</int>
@@ -70,7 +70,21 @@
 			<vec2>6 17</vec2>
 			<int>29</int>
 		</array>
-		<array name="items/money_gold_3.unit"><vec2>25 22</vec2><int>22</int></array>
+		<array name="items/money_gold_3.unit"><vec2>25 22</vec2><int>30</int></array>
+		<array name="items/ore.unit">
+			<vec2>32 28</vec2>
+			<int>32</int>
+			<vec2>13 19</vec2>
+			<int>33</int>
+			<vec2>7 12</vec2>
+			<int>34</int>
+			<vec2>41 12</vec2>
+			<int>35</int>
+			<vec2>25 23</vec2>
+			<int>36</int>
+			<vec2>8 29</vec2>
+			<int>37</int>
+		</array>
 	</dict>
 	<array name="scripts"></array>
 	<array name="prefabs"></array>
