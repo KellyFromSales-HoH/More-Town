@@ -188,7 +188,7 @@
 					<int name="restrict-shop-level-min">8</int>
 					<int name="cost-gold">560000</int>
 
-					<string name="name">shop.magicshop.resistance.name?lvl=XI</string>
+					<string name="name">.shop.magicshop.resistance.name?lvl=XI</string>
 					<string name="desc">.shop.magicshop.resistance.desc?amount=+255</string>
 
 					<dict name="modifier">
@@ -381,7 +381,7 @@
 					<int name="restrict-shop-level-min">8</int>
 					<int name="cost-gold">560000</int>
 
-					<string name="name">.shop.magicshop.spellpower.name?lvl=Xi</string>
+					<string name="name">.shop.magicshop.spellpower.name?lvl=XI</string>
 					<string name="desc">.shop.magicshop.spellpower.desc?amount=+450</string>
 
 					<dict name="modifier">

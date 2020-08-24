@@ -742,6 +742,16 @@
 					<!-- <string name="restrict-flag">unlock_priest</string> -->
 					<int name="building-level">3</int>
 				</dict>
+
+				<!-- Level 4 -->
+				<dict>
+					<int name="cost-ore">250</int>
+					
+					<string name="name">.shop.townhall.chapel-4.name</string>
+					<string name="desc">.shop.townhall.chapel-4.desc</string>
+					<int name="restrict-shop-level-min">6</int>
+					<int name=="building-level">4</int>
+				</dict>
 			</array>
 		</dict>
 		

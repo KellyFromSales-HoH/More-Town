@@ -72,7 +72,7 @@
 		<dict>
 			<string name="class">Skills::StackProtection</string>
 			<int name="max-stacks">8</int>
-			<float name="dmg-taken-mul">0.55</float>
+			<float name="dmg-taken-mul">0.45</float>
 			<int name="duration">3000</int>
 			<string name="fx-add-stack">players/sorcerer/ice_barrier_charge.effect</string>
 			<string name="fx-take-stack">players/sorcerer/ice_barrier.effect</string>
@@ -87,7 +87,7 @@
 		<dict>
 			<string name="class">Skills::StackProtection</string>
 			<int name="max-stacks">9</int>
-			<float name="dmg-taken-mul">0.6</float>
+			<float name="dmg-taken-mul">0.4</float>
 			<int name="duration">3500</int>
 			<string name="fx-add-stack">players/sorcerer/ice_barrier_charge.effect</string>
 			<string name="fx-take-stack">players/sorcerer/ice_barrier.effect</string>
@@ -102,7 +102,7 @@
 		<dict>
 			<string name="class">Skills::StackProtection</string>
 			<int name="max-stacks">9</int>
-			<float name="dmg-taken-mul">0.65</float>
+			<float name="dmg-taken-mul">0.45</float>
 			<int name="duration">4000</int>
 			<string name="fx-add-stack">players/sorcerer/ice_barrier_charge.effect</string>
 			<string name="fx-take-stack">players/sorcerer/ice_barrier.effect</string>
@@ -117,7 +117,7 @@
 		<dict>
 			<string name="class">Skills::StackProtection</string>
 			<int name="max-stacks">10</int>
-			<float name="dmg-taken-mul">0.7</float>
+			<float name="dmg-taken-mul">0.3</float>
 			<int name="duration">4500</int>
 			<string name="fx-add-stack">players/sorcerer/ice_barrier_charge.effect</string>
 			<string name="fx-take-stack">players/sorcerer/ice_barrier.effect</string>
@@ -132,7 +132,7 @@
 		<dict>
 			<string name="class">Skills::StackProtection</string>
 			<int name="max-stacks">10</int>
-			<float name="dmg-taken-mul">0.75</float>
+			<float name="dmg-taken-mul">0.25</float>
 			<int name="duration">5000</int>
 			<string name="fx-add-stack">players/sorcerer/ice_barrier_charge.effect</string>
 			<string name="fx-take-stack">players/sorcerer/ice_barrier.effect</string>
