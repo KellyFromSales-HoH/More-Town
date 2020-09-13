@@ -1,5 +1,5 @@
 <unit netsync="position" save="false" slot="actor">
-	<behavior class="PlayerOwnedGladiator">
+	<behavior class="PlayerOwnedSummon">
 	
 		<string name="team">player</string>
 
@@ -11,6 +11,7 @@
 		<int name="overhead-bossbar-width">16</int>
 		<int name="ttl">20000</int>
 		<float name="block-projectile-chance">0.5</float>
+		<bool name="use-player-colors">true</bool>
 
 		<string name="gore">effects/gibs/gib_secutor.sval</string>
 		<string name="death-snd">event:/player/gladiator/reinforcements-death</string>

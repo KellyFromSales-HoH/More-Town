@@ -17,7 +17,7 @@
 			
 			<int name="mana-cost">60</int>
 			
-			<string name="anim">channeling</string>
+			<string name="anim">summon-pit-fighters</string>
 			<float name="speed-mul">1</float>
 			<bool name="blocking">true</bool>
 			<bool name="safe-spawn">true</bool>
@@ -46,7 +46,7 @@
 			
 			<string name="spawn-fx">players/gladiator/lightning.effect</string>
 			<string name="start-snd">event:/player/gladiator/reinforcements</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-pit-fighters</string>
 			<float name="speed-mul">1</float>
 			<bool name="blocking">true</bool>
 			<bool name="safe-spawn">true</bool>
@@ -71,7 +71,7 @@
 			
 			<string name="spawn-fx">players/gladiator/lightning.effect</string>
 			<string name="start-snd">event:/player/gladiator/reinforcements</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-pit-fighters</string>
 			<float name="speed-mul">1</float>
 			<bool name="blocking">true</bool>
 			<bool name="safe-spawn">true</bool>
@@ -96,7 +96,7 @@
 			
 			<string name="spawn-fx">players/gladiator/lightning.effect</string>
 			<string name="start-snd">event:/player/gladiator/reinforcements</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-pit-fighters</string>
 			<float name="speed-mul">1</float>
 			<bool name="blocking">true</bool>
 			<bool name="safe-spawn">true</bool>
@@ -121,7 +121,7 @@
 			
 			<string name="spawn-fx">players/gladiator/lightning.effect</string>
 			<string name="start-snd">event:/player/gladiator/reinforcements</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-pit-fighters</string>
 			<float name="speed-mul">1</float>
 			<bool name="blocking">true</bool>
 			<bool name="safe-spawn">true</bool>
@@ -146,7 +146,7 @@
 			
 			<string name="spawn-fx">players/gladiator/lightning.effect</string>
 			<string name="start-snd">event:/player/gladiator/reinforcements</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-pit-fighters</string>
 			<float name="speed-mul">1</float>
 			<bool name="blocking">true</bool>
 			<bool name="safe-spawn">true</bool>
