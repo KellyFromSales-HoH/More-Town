@@ -367,11 +367,11 @@
 			<string name="skills.ranger.grasping-roots.8">Immobilize all enemies around the Ranger for 5.8 seconds. Enemies caught by the roots have their Armor reduced by 45%.</string>
 			<string name="skills.ranger.grasping-roots.9">Immobilize all enemies around the Ranger for 6 seconds. Enemies caught by the roots have their Armor reduced by 50%.</string>
 
-			<string name="skills.ranger.powershot.4">Charges an arrow that deals up to 750 Magical damage. The arrow ignores 55% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
-			<string name="skills.ranger.powershot.5">Charges an arrow that deals up to 2250 Magical damage. The arrow ignores 60% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
-			<string name="skills.ranger.powershot.6">Charges an arrow that deals up to 5625 Magical damage. The arrow ignores 65% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
-			<string name="skills.ranger.powershot.7">Charges an arrow that deals up to 14060 Magical damage. The arrow ignores 70% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
-			<string name="skills.ranger.powershot.8">Charges an arrow that deals up to 35150 Magical damage. The arrow ignores 75% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
+			<string name="skills.ranger.powershot.4">Charges up three arrows that deal up to 750 Magical damage. The arrow ignores 55% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
+			<string name="skills.ranger.powershot.5">Charges up three arrows that deal up to 2250 Magical damage. The arrow ignores 60% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
+			<string name="skills.ranger.powershot.6">Charges up three arrows that deal up to 5625 Magical damage. The arrow ignores 65% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
+			<string name="skills.ranger.powershot.7">Charges up three arrows that deal up to 14060 Magical damage. The arrow ignores 70% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
+			<string name="skills.ranger.powershot.8">Charges up three arrows that deal up to 35150 Magical damage. The arrow ignores 75% resistance and is fully charged after 1 second. Charging increases damage and projectile speed.</string>
 
 			<string name="skills.ranger.twinned-arrows.3">Arrows from \caac8ffBow Shot\d have a 42% chance of splitting and seeking a new target.</string>
 			<string name="skills.ranger.twinned-arrows.4">Arrows from \caac8ffBow Shot\d have a 44% chance of splitting and seeking a new target.</string>
