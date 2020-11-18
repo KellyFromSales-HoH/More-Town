@@ -29,7 +29,7 @@
 			<int>-1</int>
 			<bool>f</bool>
 			<dict>
-				<int name="ShopLevel">5</int>
+				<int name="ShopLevel">4</int>
 				<string name="Category">oretrader</string>
 				<array name="Areas"><int>3</int></array>
 			</dict>

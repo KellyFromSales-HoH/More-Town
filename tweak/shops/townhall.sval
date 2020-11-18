@@ -584,16 +584,6 @@
 					<int name="building-level">4</int>
 				</dict>
 				<!-- Level 5 -->
-				<dict>
-					<int name="cost-ore">24375</int>
-
-					<string name="name">.shop.townhall.oretrader-5.name</string>
-					<string name="desc">.shop.townhall.oretrader-5.desc</string>
-					
-					<int name="restrict-shop-level-min">5</int>
-					<string name="restrict-flag">special_ore</string>
-					<int name="building-level">5</int>
-				</dict>
 			</array>
 		</dict>
 
