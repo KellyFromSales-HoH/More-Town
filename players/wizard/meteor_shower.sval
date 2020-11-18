@@ -18,7 +18,7 @@
 			<int name="mana-cost">80</int>
 			
 			<string name="snd">event:/player/wizard/meteor-summon</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-looping</string>
 			<float name="speed-mul">0</float>
 			<bool name="blocking">true</bool>
 			
@@ -41,7 +41,7 @@
 			<int name="mana-cost">120</int>
 			
 			<string name="snd">event:/player/wizard/meteor-summon</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-looping</string>
 			<float name="speed-mul">0</float>
 			<bool name="blocking">true</bool>
 			
@@ -66,7 +66,7 @@
 			<int name="mana-cost">160</int>
 			
 			<string name="snd">event:/player/wizard/meteor-summon</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-looping</string>
 			<float name="speed-mul">0</float>
 			<bool name="blocking">true</bool>
 			
@@ -93,7 +93,7 @@
 			<int name="mana-cost">320</int>
 			
 			<string name="snd">event:/player/wizard/meteor-summon</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-looping</string>
 			<float name="speed-mul">0</float>
 			<bool name="blocking">true</bool>
 			
@@ -120,7 +120,7 @@
 			<int name="mana-cost">640</int>
 			
 			<string name="snd">event:/player/wizard/meteor-summon</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-looping</string>
 			<float name="speed-mul">0</float>
 			<bool name="blocking">true</bool>
 			
@@ -147,7 +147,7 @@
 			<int name="mana-cost">960</int>
 			
 			<string name="snd">event:/player/wizard/meteor-summon</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-looping</string>
 			<float name="speed-mul">0</float>
 			<bool name="blocking">true</bool>
 			
@@ -174,7 +174,7 @@
 			<int name="mana-cost">1440</int>
 			
 			<string name="snd">event:/player/wizard/meteor-summon</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-looping</string>
 			<float name="speed-mul">0</float>
 			<bool name="blocking">true</bool>
 			
@@ -201,7 +201,7 @@
 			<int name="mana-cost">1800</int>
 			
 			<string name="snd">event:/player/wizard/meteor-summon</string>
-			<string name="anim">channeling</string>
+			<string name="anim">summon-looping</string>
 			<float name="speed-mul">0</float>
 			<bool name="blocking">true</bool>
 			

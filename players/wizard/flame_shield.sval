@@ -14,7 +14,7 @@
 			<dict name="modifier">
 				<string name="class">Modifiers::FlameShield</string>
 				<float name="dmg-taken-mul">0.8</float>
-				<int name="cooldown">8000</int>
+				<int name="cooldown">7500</int>
 				<string name="fx">players/wizard/flame_shield.effect</string>
 				<string name="fx-charge">players/wizard/flame_shield_charge.effect</string>
 
@@ -30,7 +30,7 @@
 			<dict name="modifier">
 				<string name="class">Modifiers::FlameShield</string>
 				<float name="dmg-taken-mul">0.7</float>
-				<int name="cooldown">7000</int>
+				<int name="cooldown">6000</int>
 				<string name="fx">players/wizard/flame_shield.effect</string>
 				<string name="fx-charge">players/wizard/flame_shield_charge.effect</string>
 
@@ -46,7 +46,7 @@
 			<dict name="modifier">
 				<string name="class">Modifiers::FlameShield</string>
 				<float name="dmg-taken-mul">0.6</float>
-				<int name="cooldown">6000</int>
+				<int name="cooldown">4500</int>
 				<string name="fx">players/wizard/flame_shield.effect</string>
 				<string name="fx-charge">players/wizard/flame_shield_charge.effect</string>
 
@@ -62,7 +62,7 @@
 			<dict name="modifier">
 				<string name="class">Modifiers::FlameShield</string>
 				<float name="dmg-taken-mul">0.5</float>
-				<int name="cooldown">5000</int>
+				<int name="cooldown">3000</int>
 				<string name="fx">players/wizard/flame_shield.effect</string>
 				<string name="fx-charge">players/wizard/flame_shield_charge.effect</string>
 
@@ -79,7 +79,7 @@
 			<dict name="modifier">
 				<string name="class">Modifiers::FlameShield</string>
 				<float name="dmg-taken-mul">0.45</float>
-				<int name="cooldown">4500</int>
+				<int name="cooldown">2500</int>
 				<string name="fx">players/wizard/flame_shield.effect</string>
 				<string name="fx-charge">players/wizard/flame_shield_charge.effect</string>
 
@@ -96,7 +96,7 @@
 			<dict name="modifier">
 				<string name="class">Modifiers::FlameShield</string>
 				<float name="dmg-taken-mul">0.4</float>
-				<int name="cooldown">4000</int>
+				<int name="cooldown">2000</int>
 				<string name="fx">players/wizard/flame_shield.effect</string>
 				<string name="fx-charge">players/wizard/flame_shield_charge.effect</string>
 
@@ -113,7 +113,7 @@
 			<dict name="modifier">
 				<string name="class">Modifiers::FlameShield</string>
 				<float name="dmg-taken-mul">0.35</float>
-				<int name="cooldown">3500</int>
+				<int name="cooldown">1500</int>
 				<string name="fx">players/wizard/flame_shield.effect</string>
 				<string name="fx-charge">players/wizard/flame_shield_charge.effect</string>
 
@@ -130,7 +130,7 @@
 			<dict name="modifier">
 				<string name="class">Modifiers::FlameShield</string>
 				<float name="dmg-taken-mul">0.3</float>
-				<int name="cooldown">3000</int>
+				<int name="cooldown">1000</int>
 				<string name="fx">players/wizard/flame_shield.effect</string>
 				<string name="fx-charge">players/wizard/flame_shield_charge.effect</string>
 
@@ -147,7 +147,7 @@
 			<dict name="modifier">
 				<string name="class">Modifiers::FlameShield</string>
 				<float name="dmg-taken-mul">0.25</float>
-				<int name="cooldown">2500</int>
+				<int name="cooldown">500</int>
 				<string name="fx">players/wizard/flame_shield.effect</string>
 				<string name="fx-charge">players/wizard/flame_shield_charge.effect</string>
 

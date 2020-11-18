@@ -530,11 +530,11 @@
 			<string name="skills.wizard.combustion.9">All Wizard skills inflict a burning over time dealing 940 Magical damage per second for 4.8 seconds.</string>
 			<string name="skills.wizard.combustion.10">All Wizard skills inflict a burning over time dealing 2350 Magical damage per second for 5 seconds.</string>
 
-			<string name="skills.wizard.flame-shield.5">Protects the Wizard by lowering the damage of one damage instance by 55%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 4.5 seconds.</string>
-			<string name="skills.wizard.flame-shield.6">Protects the Wizard by lowering the damage of one damage instance by 60%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 4 seconds.</string>
-			<string name="skills.wizard.flame-shield.7">Protects the Wizard by lowering the damage of one damage instance by 65%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 3.5 seconds.</string>
-			<string name="skills.wizard.flame-shield.8">Protects the Wizard by lowering the damage of one damage instance by 70%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 3 seconds.</string>
-			<string name="skills.wizard.flame-shield.9">Protects the Wizard by lowering the damage of one damage instance by 75%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 2.5 seconds.</string>
+			<string name="skills.wizard.flame-shield.5">Protects the Wizard by lowering the damage of one damage instance by 55%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 2.5 seconds.</string>
+			<string name="skills.wizard.flame-shield.6">Protects the Wizard by lowering the damage of one damage instance by 60%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 2 seconds.</string>
+			<string name="skills.wizard.flame-shield.7">Protects the Wizard by lowering the damage of one damage instance by 65%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 1.5 seconds.</string>
+			<string name="skills.wizard.flame-shield.8">Protects the Wizard by lowering the damage of one damage instance by 70%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 1 seconds.</string>
+			<string name="skills.wizard.flame-shield.9">Protects the Wizard by lowering the damage of one damage instance by 75%. When Flame Shield activates, your current level of Blast Wave is triggered. Recharges after 0.5 seconds.</string>
 
 			<string name="skills.wizard.blast-wave.5">Unleash a blast wave around the Wizard that deals 75 Magical damage. Enemies hit by the wave are confused and slowed by 63% for 4.2 seconds. The blast wave also destroys most projectiles.</string>
 			<string name="skills.wizard.blast-wave.6">Unleash a blast wave around the Wizard that deals 225 Magical damage. Enemies hit by the wave are confused and slowed by 66% for 4.4 seconds. The blast wave also destroys most projectiles.</string>
